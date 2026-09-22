@@ -1,0 +1,86 @@
+
+.fleetlery-sidebar-content {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in oklab, var(--sidebar-foreground) 18%, transparent) transparent;
+}
+
+.fleetlery-nav-link.sidebar-menu-button,
+.fleetlery-logout-button.sidebar-menu-button {
+  background-color: transparent !important;
+  color: var(--sidebar-foreground) !important;
+}
+
+.fleetlery-nav-link.sidebar-menu-button {
+  border: 1px solid transparent;
+  border-inline-start-width: 2px;
+  font-weight: 500;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.fleetlery-nav-icon {
+  display: inline-flex;
+  width: 1.75rem;
+  height: 1.75rem;
+  flex: 0 0 1.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.55rem;
+  background-color: color-mix(in oklab, var(--sidebar-foreground) 6%, transparent);
+  color: color-mix(in oklab, var(--sidebar-foreground) 78%, transparent);
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.fleetlery-nav-link.sidebar-menu-button:hover {
+  background-color: var(--sidebar-accent) !important;
+  border-color: color-mix(in oklab, var(--sidebar-foreground) 8%, transparent);
+  color: var(--sidebar-accent-foreground) !important;
+}
+
+.fleetlery-nav-link.sidebar-menu-button[data-active="true"],
+.fleetlery-nav-link.sidebar-menu-button[data-active="true"]:hover {
+  background-color: color-mix(in oklab, var(--primary) 11%, var(--sidebar)) !important;
+  border-color: color-mix(in oklab, var(--primary) 16%, transparent);
+  border-inline-start-color: var(--primary);
+  box-shadow: 0 1px 3px color-mix(in oklab, var(--primary) 9%, transparent);
+  color: var(--primary) !important;
+  font-weight: 650;
+}
+
+.fleetlery-nav-link.sidebar-menu-button[data-active="true"] .fleetlery-nav-icon {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.fleetlery-account {
+  border: 1px solid var(--sidebar-border);
+  background-color: color-mix(in oklab, var(--sidebar-foreground) 4%, var(--sidebar));
+}
+
+.fleetlery-logout-button.sidebar-menu-button:hover {
+  background-color: color-mix(in oklab, var(--destructive) 9%, transparent) !important;
+  color: var(--destructive) !important;
+}
+
+.group[data-collapsible="icon"] .fleetlery-account {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.group[data-collapsible="icon"] .fleetlery-nav-link.sidebar-menu-button {
+  padding: 0 !important;
+  border: 0;
+}
+
+.group[data-collapsible="icon"] .fleetlery-nav-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-basis: 1.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fleetlery-nav-link.sidebar-menu-button,
+  .fleetlery-nav-icon {
+    transition: none;
+  }
+}

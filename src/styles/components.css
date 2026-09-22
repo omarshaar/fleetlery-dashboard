@@ -1,0 +1,49 @@
+:root {
+  --sidebar-cookie-name: "sidebar_state";
+  --sidebar-cookie-max-age: 604800;
+  /* 60 * 60 * 24 * 7 */
+
+  --sidebar-width: 16rem;
+  --sidebar-width-mobile: 17rem;
+  --sidebar-width-icon: 3rem;
+
+  --sidebar-keyboard-shortcut: "b";
+
+  --header-height: 46px;
+  --page-padding: 1.25rem;
+}
+
+/* Mobile override */
+@media (max-width: 768px) {
+  :root {
+    --sidebar-width: var(--sidebar-width-mobile);
+    --page-padding: 0.75rem;
+  }
+}
+
+.ode-tab-item-active::after {
+  content: "";
+  position: absolute;
+  inset-inline: 5%;
+  bottom: -1px;
+  height: 3px;
+  background: var(--primary);
+}
+
+.layout-body-w {
+  width: calc(100% - var(--sidebar-width)) !important;
+  max-width: calc(100% - var(--sidebar-width)) !important;
+}
+
+.car-backdrop {
+  background-image: url('https://images.unsplash.com/photo-1711962842423-28f28b5bbf1d?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: bottom bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: calc(100vh - var(--header-height));
+}
+
+.dark .car-backdrop {
+  filter: grayscale(70%) brightness(60%);
+}

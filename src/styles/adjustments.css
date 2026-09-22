@@ -1,0 +1,228 @@
+* {
+  user-select: none;
+  box-sizing: border-box;
+  /* direction: rtl; */
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100dvh;
+}
+
+
+a {
+  font-weight: 400;
+  color: #000;
+  text-decoration: inherit;
+  font-size: 1em;
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+.dark a {
+  color: #fff !important;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  outline: none !important;
+}
+
+button:hover {
+  border-color: var(--primary);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px auto -webkit-focus-ring-color;
+}
+
+[data-slot="calendar"] button {
+  background-color: inherit;
+  padding: inherit;
+}
+
+.sidebar-menu-button {
+  background-color: var(--background-page) !important;
+  color: #0b0b0c;
+}
+
+.dark .sidebar-menu-button {
+  background-color: var(--background-page) !important;
+  color: #fff;
+}
+
+.dark {
+  background-color: #222222 !important;
+}
+
+body {
+  background-color: var(--background-page) !important;
+  overflow-x: hidden;
+}
+
+.dark body {
+  background-color: var(--background-page) !important;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-shadow-right {
+  position: relative;
+}
+
+.scroll-shadow-right::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent);
+}
+
+.suneditor-container div {
+  font-family: var(--font-family) !important;
+}
+
+.dark .suneditor-container div {
+  background-color: var(--color-black) !important;
+  border-color: var(--border) !important;
+  outline-color: var(--border) !important;
+}
+
+.dark .suneditor-container button {
+  color: var(--color-white) !important;
+}
+
+.suneditor-container button:hover {
+  background-color: var(--primary) !important;
+  color: var(--color-white) !important;
+}
+
+.dark .se-dialog-content {
+  background-color: var(--background-page) !important;
+  border-color: var(--border) !important;
+  outline-color: var(--border) !important;
+}
+
+.dark .se-dialog-content label, .dark .se-dialog-content select, .dark .se-dialog-content input, .dark .se-dialog-content option, .dark .se-dialog-content span {
+  color: var(--color-white) !important;
+}
+
+.dark .sun-editor .se-dialog .se-dialog-inner input:disabled {
+  background-color: var(--background-page) !important;
+}
+
+.dark .se-dialog-content  button {
+  background-color: var(--color-black) !important;
+  color: var(--color-white) !important;
+  border: none !important;
+}
+
+.dark .se-dialog-content .se-dialog-tabs button {
+  background: none !important;
+}
+
+/* Scrollbar styling for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-page);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted-foreground);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-color: var(--muted-foreground) var(--background-page);
+  scrollbar-width: thin;
+}
+
+
+.toaster [data-description] {
+  color: #444444 !important;
+}
+
+.dark .toaster [data-description] {
+  color: #c4c4c4 !important;
+}
+
+[role="menubar"] button {
+  padding: 4px  12px !important;
+}
+
+/* Navigation bar horizontal scroll with safe dropdowns */
+.nav-main-scroll {
+  overflow-x: auto;
+}
+
+.nav-main-scroll:hover {
+  /* Allow dropdowns to extend outside while hovering the nav */
+  overflow-x: visible;
+}
+
+/* RTL adjustments */
+[data-sidebar="menu-button"] .lucide-chevron-right {
+  margin: 0 !important;
+  margin-inline-start: auto !important;
+}
+
+.or-hh{
+  height: calc(100% - var(--header-height) - 10px) !important;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}

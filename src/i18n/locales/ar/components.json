@@ -1,0 +1,91 @@
+{
+  "calender": {
+    "event": {
+      "untitled": "بدون عنوان"
+    },
+    "dialogs": {
+      "create": {
+        "title": "إنشاء حدث",
+        "description": "أدخل تفاصيل الحدث",
+        "fields": {
+          "title": "العنوان",
+          "startDate": "تاريخ البداية",
+          "startTime": "وقت البداية",
+          "endDate": "تاريخ النهاية",
+          "endTime": "وقت النهاية"
+        }
+      },
+      "edit": {
+        "title": "تعديل الحدث",
+        "description": "عدّل تفاصيل الحدث",
+        "fields": {
+          "title": "العنوان",
+          "startDate": "تاريخ البداية",
+          "startTime": "وقت البداية",
+          "endDate": "تاريخ النهاية",
+          "endTime": "وقت النهاية"
+        }
+      },
+      "color": {
+        "label": "لون الحدث",
+        "change": "تغيير اللون",
+        "pickerTitle": "اختر لونًا",
+        "pickerDescription": "اختر لون الحدث"
+      }
+    },
+    "actions": {
+      "close": "إغلاق",
+      "save": "حفظ",
+      "delete": "حذف",
+      "confirm": "تأكيد"
+    },
+    "rbc": {
+      "today": "اليوم",
+      "previous": "السابق",
+      "next": "التالي",
+      "month": "شهر",
+      "week": "أسبوع",
+      "day": "يوم",
+      "agenda": "الأجندة",
+      "date": "التاريخ",
+      "time": "الوقت",
+      "event": "الحدث",
+      "noEventsInRange": "لا توجد أحداث ضمن هذا النطاق.",
+      "showMore": "+{{count}} المزيد"
+    }
+  },
+
+  "system": {
+    "state": {
+      "loading": "جاري التحميل...",
+      "error": "حدث خطأ ما.",
+      "empty": "لا توجد بيانات لعرضها."
+    }
+  },
+
+  "productListBlock": {
+    "title": "المنتجات",
+    "views": {
+      "grid": "شبكة",
+      "list": "قائمة",
+      "table": "جدول"
+    },
+    "states": {
+      "loading": "جاري التحميل...",
+      "error": "حدث خطأ ما.",
+      "empty": "لا توجد منتجات لعرضها."
+    },
+    "table": {
+      "searchPlaceholder": "ابحث عن منتج...",
+      "columns": {
+        "image": "صورة",
+        "name": "الاسم",
+        "subtitle": "الوصف",
+        "price": "السعر",
+        "badge": "شارة",
+        "action": "إجراء"
+      },
+      "actionLabel": "التفاصيل"
+    }
+  }
+}

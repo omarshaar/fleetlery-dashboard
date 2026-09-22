@@ -1,0 +1,87 @@
+.rbc-toolbar {
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.rbc-event {
+  font-size: 12px;
+}
+
+.rbc-today {
+  background: rgba(16, 185, 129, 0.1) !important;
+}
+
+.rbc-calendar,
+.rbc-calendar * {
+  border-color: var(--color-border) !important;
+}
+
+
+.rbc-today {
+  background: oklch(from var(--primary) l c h / 0.2);
+}
+
+.rbc-off-range-bg {
+  background: var(--muted);
+}
+
+.dark .rbc-btn-group button {
+  color: var(--color-white);
+}
+
+.dark .rbc-btn-group button:hover {
+  color: var(--color-black) !important;
+}
+
+.dark .rbc-btn-group .rbc-active {
+  color: var(--color-white) !important;
+  background-color: var(--primary) !important;
+}
+
+.rbc-btn-group .rbc-active {
+  color: var(--color-white) !important;
+  background-color: var(--primary) !important;
+}
+
+.rbc-btn-group button {
+  font-size: 0.9rem !important;
+}
+
+.rbc-label {
+  font-size: 0.75rem !important;
+}
+
+.rbc-time-view {
+  border: none;
+}
+
+.rbc-month-view {
+  border: none;
+}
+
+.rbc-time-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-inline-end: 2px;
+}
+
+.rbc-time-content::-webkit-scrollbar {
+  display: none;
+}
+
+.rbc-toolbar-label {
+  font-weight: 600;
+  font-size: 0.9rem !important;
+}
+
+.rbc-overflowing {
+  margin: 0 !important;
+}
+
+.rbc-selected-cell {
+  background-color: rgb(0, 0, 0, 0.1) !important; 
+}
+
+.dark .rbc-selected-cell {
+  background-color: rgb(255, 255, 255, 0.1) !important; 
+}

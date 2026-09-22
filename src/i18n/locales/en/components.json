@@ -1,0 +1,91 @@
+{
+  "calender": {
+    "event": {
+      "untitled": "Untitled"
+    },
+    "dialogs": {
+      "create": {
+        "title": "Create Event",
+        "description": "Fill in the event details",
+        "fields": {
+          "title": "Title",
+          "startDate": "Start Date",
+          "startTime": "Start Time",
+          "endDate": "End Date",
+          "endTime": "End Time"
+        }
+      },
+      "edit": {
+        "title": "Edit Event",
+        "description": "Modify the event details",
+        "fields": {
+          "title": "Title",
+          "startDate": "Start Date",
+          "startTime": "Start Time",
+          "endDate": "End Date",
+          "endTime": "End Time"
+        }
+      },
+      "color": {
+        "label": "Event Color",
+        "change": "Change Color",
+        "pickerTitle": "Pick a Color",
+        "pickerDescription": "Choose the event color"
+      }
+    },
+    "actions": {
+      "close": "Close",
+      "save": "Save",
+      "delete": "Delete",
+      "confirm": "Confirm"
+    },
+    "rbc": {
+      "today": "Today",
+      "previous": "Back",
+      "next": "Next",
+      "month": "Month",
+      "week": "Week",
+      "day": "Day",
+      "agenda": "Agenda",
+      "date": "Date",
+      "time": "Time",
+      "event": "Event",
+      "noEventsInRange": "No events in this range.",
+      "showMore": "+{{count}} more"
+    }
+  },
+
+  "system": {
+    "state": {
+      "loading": "Loading...",
+      "error": "Something went wrong.",
+      "empty": "No data to display."
+    }
+  },
+
+  "productListBlock": {
+    "title": "Products",
+    "views": {
+      "grid": "Grid",
+      "list": "List",
+      "table": "Table"
+    },
+    "states": {
+      "loading": "Loading...",
+      "error": "Something went wrong.",
+      "empty": "No products to display."
+    },
+    "table": {
+      "searchPlaceholder": "Search products...",
+      "columns": {
+        "image": "Image",
+        "name": "Name",
+        "subtitle": "Subtitle",
+        "price": "Price",
+        "badge": "Badge",
+        "action": "Action"
+      },
+      "actionLabel": "Details"
+    }
+  }
+}

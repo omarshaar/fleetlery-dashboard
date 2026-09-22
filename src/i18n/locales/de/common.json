@@ -1,0 +1,751 @@
+{
+  "common": {
+    "search": "Schnellsuche...",
+    "yes": "Ja",
+    "no": "Nein",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "verified": "Verifiziert",
+    "unverified": "Nicht verifiziert",
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv"
+    },
+    "loading": "Wird geladen…"
+  },
+  "navigation": {
+    "commingSoon": "Demnächst verfügbar",
+    "notFound": "404-Seite",
+    "dashboard": "Übersicht"
+  },
+  "system": {
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+      "actions": {
+        "home": "Zur Startseite",
+        "back": "Zurück"
+      }
+    },
+    "commingSoon": {
+      "description": "Macht euch bereit! Wir arbeiten gerade an etwas Großartigem.",
+      "email": {
+        "placeholder": "E-Mail-Adresse",
+        "cta": "Benachrichtige mich",
+        "success": "Danke!"
+      }
+    },
+    "forbidden": {
+      "description": "Sie haben keine Berechtigung für diese Seite.",
+      "home": "Zur Startseite",
+      "title": "Zugriff verweigert"
+    }
+  },
+  "header": {
+    "sidebar": {
+      "search": "Suchen..."
+    },
+    "theme": {
+      "toggle": "Design umschalten"
+    },
+    "notifications": {
+      "label": "Benachrichtigungen"
+    },
+    "search": {
+      "placeholder": "Suchen…"
+    },
+    "dashboard": "Fleetlery"
+  },
+  "colorPicker": {
+    "selectColor": "Farbe wählen"
+  },
+  "formBuilder": {
+    "avatar": {
+      "preview": "Avatar-Vorschau",
+      "removeImage": "Bild entfernen",
+      "clickToUpload": "Klicken Sie zum Hochladen"
+    }
+  },
+  "ecommerce": {
+    "orders": {
+      "filters": {
+        "status": {
+          "options": {
+            "active": "Aktiv",
+            "processing": "In Bearbeitung",
+            "shipped": "Versendet",
+            "delivered": "Zugestellt",
+            "overdue": "Überfällig",
+            "cancelled": "Storniert"
+          }
+        }
+      }
+    },
+    "orderCard": {
+      "moreItems": "....... und {{count}} weitere Artikel",
+      "actions": {
+        "open": "Bestellung öffnen"
+      }
+    }
+  },
+  "driver": {
+    "home": {
+      "title": "Mitarbeiterbereich",
+      "subtitle": "Ihr persönlicher Fleetlery-Bereich wird schrittweise aufgebaut."
+    }
+  },
+  "admin": {
+    "home": {
+      "welcome": "Willkommen, {{name}}.",
+      "subtitle": "Fleetlery-Verwaltungsbereich",
+      "foundationTitle": "Grundlage ist eingerichtet",
+      "foundationDescription": "Authentifizierung, Rollen, Berechtigungen und sichere Routen sind bereit für die nächsten Fachmodule.",
+      "title": "Administration"
+    },
+    "dashboard": {
+      "allCities": "Alle Städte",
+      "subtitle": "Aktueller Betriebsstatus von Fleetlery",
+      "cityFilter": "Nach Stadt filtern",
+      "cities": {
+        "empty": "Für diese Auswahl sind keine Stadtdaten vorhanden.",
+        "title": "Fahrer nach Stadt"
+      },
+      "retry": "Erneut versuchen",
+      "title": "Übersicht",
+      "error": "Die Dashboard-Daten konnten nicht geladen werden.",
+      "kpi": {
+        "review": "In Prüfung",
+        "missingDocuments": "Fehlende Dokumente",
+        "total": "Fahrer gesamt",
+        "openSettlements": "Offene Auszahlungen",
+        "new": "Neue Fahrer",
+        "active": "Aktive Fahrer"
+      },
+      "refresh": "Aktualisieren",
+      "attention": {
+        "identityExpiring": "Ausweise laufen in 30 Tagen ab",
+        "title": "Handlungsbedarf",
+        "rejectedDocuments": "Abgelehnte Dokumente",
+        "privacyOverdue": "Überfällige Datenschutzanfragen",
+        "identityExpired": "Abgelaufene Ausweise",
+        "documentReview": "Dokumente zur Prüfung"
+      },
+      "kpiSection": "Kennzahlen",
+      "generatedAt": "Aktualisiert: {{value}}"
+    }
+  },
+  "auth": {
+    "errors": {
+      "login": "Die Anmeldung ist fehlgeschlagen."
+    },
+    "login": {
+      "title": "Bei Fleetlery anmelden",
+      "description": "Melden Sie sich mit Ihrem internen Konto an."
+    },
+    "fields": {
+      "remember": "Angemeldet bleiben",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort"
+    },
+    "actions": {
+      "login": "Anmelden",
+      "logout": "Abmelden"
+    }
+  },
+  "drivers": {
+    "filters": {
+      "search": "Name, E-Mail oder Telefon suchen",
+      "allCities": "Alle Städte",
+      "allTransport": "Alle Fahrzeuge",
+      "allStatuses": "Alle Status"
+    },
+    "transport": {
+      "bicycle": "Fahrrad",
+      "car": "Auto"
+    },
+    "subtitle": "Fahrer schnell finden und verwalten.",
+    "fields": {
+      "transport": "Fahrzeug",
+      "phone": "Telefon",
+      "socialSecurity": "Sozialversicherungsnummer",
+      "birthDate": "Geburtsdatum",
+      "identityExpiry": "Ausweis gültig bis",
+      "city": "Stadt",
+      "fullName": "Vollständiger Name",
+      "actions": "Aktionen",
+      "status": "Status",
+      "email": "E-Mail"
+    },
+    "status": {
+      "active": "Aktiv",
+      "new": "Neu",
+      "documents_missing": "Unterlagen fehlen",
+      "rejected": "Abgelehnt",
+      "ready_for_activation": "Bereit zur Aktivierung",
+      "suspended": "Pausiert",
+      "under_review": "In Prüfung"
+    },
+    "title": "Fahrer",
+    "pagination": {
+      "total": "{{count}} Fahrer",
+      "previous": "Zurück",
+      "next": "Weiter"
+    },
+    "create": {
+      "subtitle": "Erfassen Sie zuerst die wichtigsten Angaben.",
+      "title": "Neuen Fahrer anlegen"
+    },
+    "actions": {
+      "open": "Öffnen",
+      "search": "Suchen",
+      "save": "Änderungen speichern",
+      "create": "Fahrer anlegen",
+      "clear": "Filter zurücksetzen",
+      "back": "Zurück zur Liste",
+      "retry": "Erneut versuchen",
+      "add": "Fahrer hinzufügen"
+    },
+    "details": {
+      "saved": "Änderungen wurden gespeichert.",
+      "createdAt": "Erstellt am",
+      "summary": "Übersicht",
+      "informationTab": "Fahrerinformationen",
+      "documentsTab": "Dokumente",
+      "subtitle": "Fahrerprofil und persönliche Angaben",
+      "noChanges": "Es wurden keine Änderungen vorgenommen."
+    },
+    "empty": {
+      "description": "Passen Sie die Filter an oder legen Sie einen neuen Fahrer an.",
+      "title": "Keine Fahrer gefunden"
+    },
+    "form": {
+      "chooseCity": "Stadt auswählen",
+      "basicData": "Persönliche Daten"
+    },
+    "errors": {
+      "create": "Der Fahrer konnte nicht angelegt werden.",
+      "update": "Die Änderungen konnten nicht gespeichert werden.",
+      "list": "Die Fahrerliste konnte nicht geladen werden.",
+      "details": "Das Fahrerprofil konnte nicht geladen werden."
+    }
+  },
+  "documents": {
+    "preview": {
+      "open": "Zum Öffnen auf die Vorschau klicken",
+      "openFile": "Datei öffnen: {{name}}",
+      "error": "Die Vorschau konnte nicht geladen werden."
+    },
+    "queue": {
+      "title": "Dokumentenprüfung",
+      "total": "{{count}} Aufgaben",
+      "subtitle": "Offene Unterlagen prüfen und bearbeiten.",
+      "openItems": "Alle offenen Aufgaben",
+      "empty": "Keine offenen Dokumentenaufgaben.",
+      "allDrivers": "Alle Fahrer"
+    },
+    "status": {
+      "missing": "Fehlt",
+      "present": "Vorhanden",
+      "needs_review": "Prüfung erforderlich",
+      "rejected": "Abgelehnt",
+      "accepted": "Akzeptiert"
+    },
+    "part": {
+      "default": "Dokument",
+      "back": "Rückseite",
+      "front": "Vorderseite"
+    },
+    "fields": {
+      "driver": "Fahrer",
+      "actions": "Aktionen",
+      "expiresAt": "Gültig bis",
+      "status": "Status",
+      "document": "Dokument"
+    },
+    "errors": {
+      "review": "Die Prüfung konnte nicht gespeichert werden.",
+      "queue": "Die Prüfliste konnte nicht geladen werden.",
+      "list": "Die Dokumente konnten nicht geladen werden.",
+      "download": "Das Dokument ist derzeit nicht verfügbar.",
+      "upload": "Die Datei konnte nicht hochgeladen werden."
+    },
+    "driver": {
+      "subtitle": "Fehlende Unterlagen erkennen und neue Dateien sicher hochladen.",
+      "title": "Dokumente"
+    },
+    "review": {
+      "reason": "Ablehnungsgrund eingeben"
+    },
+    "actions": {
+      "upload": "Hochladen",
+      "retry": "Erneut versuchen",
+      "reject": "Ablehnen",
+      "download": "Herunterladen",
+      "chooseFile": "Datei auswählen",
+      "confirmReject": "Ablehnen",
+      "accept": "Akzeptieren",
+      "openDriver": "Fahrer öffnen",
+      "refresh": "Aktualisieren",
+      "preview": "Vorschau",
+      "closePreview": "Vorschau schlie?en"
+    }
+  },
+  "settlements": {
+    "title": "Abrechnungen",
+    "subtitle": "Auszahlungen übersichtlich vorbereiten und dokumentieren.",
+    "filters": {
+      "allDrivers": "Alle Fahrer",
+      "allStatuses": "Alle Status",
+      "allPayments": "Alle Zahlungsstatus",
+      "from": "Zeitraum von",
+      "to": "Zeitraum bis"
+    },
+    "status": {
+      "draft": "Entwurf",
+      "approved": "Freigegeben",
+      "voided": "Storniert"
+    },
+    "paymentStatus": {
+      "unpaid": "Offen",
+      "partially_paid": "Teilweise bezahlt",
+      "paid": "Bezahlt"
+    },
+    "fields": {
+      "driver_id": "Fahrer",
+      "period": "Abrechnungszeitraum",
+      "period_start": "Zeitraum von",
+      "period_end": "Zeitraum bis",
+      "order_count": "Bestellungen",
+      "kilometers": "Kilometer",
+      "order_revenue": "Bestellumsatz",
+      "kilometer_revenue": "Kilometerumsatz",
+      "bonuses": "Zuschläge",
+      "gross_revenue": "Gesamtumsatz",
+      "driver_share": "Fahreranteil",
+      "company_share": "Firmenanteil",
+      "contract_cost": "Vertragskosten",
+      "deductions": "Abzüge",
+      "final_due": "Auszahlungsbetrag",
+      "notes": "Interne Notizen",
+      "status": "Status",
+      "payment": "Zahlung",
+      "actions": "Aktionen"
+    },
+    "actions": {
+      "create": "Abrechnung anlegen",
+      "open": "Öffnen",
+      "clear": "Filter löschen",
+      "retry": "Erneut versuchen",
+      "back": "Zur Übersicht",
+      "save": "Entwurf speichern",
+      "saving": "Wird gespeichert…",
+      "approve": "Abrechnung freigeben",
+      "recordPayment": "Zahlung erfassen",
+      "reverse": "Stornieren",
+      "confirmReverse": "Zahlung stornieren",
+      "cancel": "Abbrechen",
+      "void": "Abrechnung stornieren"
+    },
+    "form": {
+      "period": "Zeitraum und Leistung",
+      "amounts": "Beträge in EUR",
+      "chooseDriver": "Fahrer auswählen"
+    },
+    "create": {
+      "title": "Neue Abrechnung",
+      "subtitle": "Beträge prüfen und zunächst als Entwurf speichern."
+    },
+    "details": {
+      "subtitle": "Abrechnung, Freigabe und Zahlungsverlauf",
+      "approveHint": "Nach der Freigabe kann die Abrechnung nicht mehr bearbeitet werden."
+    },
+    "summary": {
+      "status": "Abrechnungsstatus",
+      "payment": "Zahlungsstatus",
+      "final_due": "Auszahlung",
+      "paid": "Bezahlt",
+      "remaining": "Offen"
+    },
+    "paymentForm": {
+      "title": "Zahlung erfassen",
+      "amount": "Betrag",
+      "date": "Zahlungsdatum",
+      "method": "Zahlungsart",
+      "reference": "Referenz"
+    },
+    "methods": {
+      "bank_transfer": "Überweisung",
+      "cash": "Bar",
+      "other": "Andere"
+    },
+    "payments": {
+      "title": "Zahlungsverlauf",
+      "empty": "Noch keine Zahlungen erfasst."
+    },
+    "reverse": {
+      "title": "Zahlung stornieren",
+      "reason": "Grund der Stornierung"
+    },
+    "void": {
+      "title": "Abrechnung stornieren",
+      "reason": "Grund der Stornierung"
+    },
+    "messages": {
+      "saved": "Entwurf wurde gespeichert.",
+      "approved": "Abrechnung wurde freigegeben.",
+      "voided": "Abrechnung wurde storniert.",
+      "paid": "Zahlung wurde erfasst.",
+      "reversed": "Zahlung wurde storniert."
+    },
+    "errors": {
+      "list": "Abrechnungen konnten nicht geladen werden.",
+      "details": "Abrechnung konnte nicht geladen werden.",
+      "create": "Abrechnung konnte nicht angelegt werden.",
+      "update": "Entwurf konnte nicht gespeichert werden.",
+      "approve": "Abrechnung konnte nicht freigegeben werden.",
+      "void": "Abrechnung konnte nicht storniert werden.",
+      "payment": "Zahlung konnte nicht erfasst werden.",
+      "reverse": "Zahlung konnte nicht storniert werden."
+    },
+    "empty": "Keine Abrechnungen gefunden.",
+    "pagination": {
+      "total": "{{count}} Abrechnungen",
+      "previous": "Zurück",
+      "next": "Weiter"
+    }
+  },
+  "fleetlerySidebar": {
+    "adminArea": "Verwaltung",
+    "driverArea": "Mein Bereich",
+    "overview": "Übersicht",
+    "operations": "Fahrer & Unterlagen",
+    "finance": "Finanzen",
+    "management": "Verwaltung"
+  },
+  "driverPortal": {
+    "nav": {
+      "dashboard": "Übersicht",
+      "profile": "Mein Profil",
+      "documents": "Meine Dokumente",
+      "payouts": "Meine Auszahlungen"
+    },
+    "adminNav": {
+      "dashboard": "Übersicht",
+      "drivers": "Fahrer",
+      "documents": "Dokumente",
+      "settlements": "Abrechnungen",
+      "requests": "Änderungsanträge",
+      "invitations": "Einladungen"
+    },
+    "actions": {
+      "retry": "Erneut versuchen",
+      "refresh": "Aktualisieren"
+    },
+    "dashboard": {
+      "title": "Mein Bereich",
+      "subtitle": "Ihr aktueller Stand auf einen Blick.",
+      "attention": "Unterlagen benötigen Ihre Aufmerksamkeit",
+      "attentionHint": "Bitte prüfen Sie fehlende oder abgelehnte Dokumente.",
+      "documentsAccepted": "Akzeptierte Dokumente",
+      "documentsOpen": "Fehlende oder abgelehnte Dokumente",
+      "remaining": "Noch auszuzahlen"
+    },
+    "profile": {
+      "title": "Mein Profil",
+      "subtitle": "Änderungen werden erst nach Freigabe wirksam.",
+      "noChanges": "Bitte ändern Sie mindestens ein Feld.",
+      "requestSent": "Ihr Änderungsantrag wurde eingereicht.",
+      "pendingTitle": "Ein Antrag wird bereits geprüft",
+      "pendingHint": "Nach der Entscheidung können Sie einen neuen Antrag stellen.",
+      "submit": "Änderung beantragen",
+      "note": "Nachricht an die Verwaltung",
+      "history": "Meine Anträge",
+      "noRequests": "Noch keine Änderungsanträge."
+    },
+    "requestStatus": {
+      "pending": "In Prüfung",
+      "approved": "Genehmigt",
+      "rejected": "Abgelehnt"
+    },
+    "documents": {
+      "title": "Meine Dokumente",
+      "subtitle": "Unterlagen hochladen und Bearbeitungsstatus sehen."
+    },
+    "payouts": {
+      "title": "Meine Auszahlungen",
+      "subtitle": "Ihre freigegebenen Abrechnungszeiträume.",
+      "allStatuses": "Alle Zahlungsstatus",
+      "from": "Zeitraum von",
+      "to": "Zeitraum bis",
+      "empty": "Noch keine freigegebenen Auszahlungen.",
+      "detailsSubtitle": "Auszahlung und Zahlungsverlauf",
+      "reversal": "Stornierung"
+    },
+    "invitation": {
+      "title": "Konto erstellen",
+      "subtitle": "Erfassen Sie Ihre Daten über Ihren Einladungslink.",
+      "confirmPassword": "Passwort bestätigen",
+      "callingCode": "Ländervorwahl",
+      "searchCallingCode": "Land oder Vorwahl suchen",
+      "noCallingCode": "Keine Vorwahl gefunden.",
+      "internationalNetwork": "Internationales Netz",
+      "phonePlaceholder": "176 12345678",
+      "invalidPhone": "Bitte geben Sie eine gültige Telefonnummer ein.",
+      "createAccount": "Konto erstellen",
+      "doneTitle": "Konto erstellt",
+      "doneText": "Sie können sich jetzt anmelden.",
+      "invalidTitle": "Einladung nicht verfügbar",
+      "invalidText": "Der Link ist ungültig oder nicht mehr gültig. Bitte wenden Sie sich an die Verwaltung."
+    },
+    "adminRequests": {
+      "requestedChanges": "Beantragte Änderungen",
+      "otherField": "Weitere Angabe",
+      "notProvided": "Nicht angegeben",
+      "unknownValue": "Unbekannter Wert",
+      "cityUnavailable": "Stadt nicht verfügbar",
+      "driverUnavailable": "Fahrer nicht verfügbar",
+      "driverNote": "Nachricht des Fahrers",
+      "decisionReason": "Begründung der Entscheidung",
+      "openDriver": "Fahrerprofil öffnen",
+      "title": "Änderungsanträge",
+      "subtitle": "Änderungen der Fahrer vor Übernahme prüfen.",
+      "all": "Alle Anträge",
+      "empty": "Keine Anträge gefunden.",
+      "reason": "Grund / Hinweis",
+      "approve": "Genehmigen",
+      "reject": "Ablehnen"
+    },
+    "errors": {
+      "dashboard": "Übersicht konnte nicht geladen werden.",
+      "profile": "Profil konnte nicht geladen werden.",
+      "changeRequest": "Antrag konnte nicht gesendet werden.",
+      "documents": "Dokumente konnten nicht geladen werden.",
+      "upload": "Datei konnte nicht hochgeladen werden.",
+      "download": "Datei konnte nicht geöffnet werden.",
+      "payouts": "Auszahlungen konnten nicht geladen werden.",
+      "payout": "Auszahlung konnte nicht geladen werden.",
+      "invitationAccept": "Konto konnte nicht erstellt werden.",
+      "adminRequests": "Anträge konnten nicht geladen werden.",
+      "decision": "Entscheidung konnte nicht gespeichert werden.",
+      "invitationCreate": "Einladung konnte nicht erstellt werden.",
+      "invitationRevoke": "Einladung konnte nicht widerrufen."
+    },
+    "invitations": {
+      "title": "Fahrereinladungen",
+      "subtitle": "Einladungslinks erstellen und verwalten.",
+      "label": "Bezeichnung",
+      "hours": "Gültigkeit in Stunden",
+      "notes": "Interne Notiz",
+      "create": "Link erstellen",
+      "copyHint": "Dieser Link wird nur jetzt vollständig angezeigt.",
+      "copy": "Kopieren",
+      "all": "Alle Einladungen",
+      "withoutLabel": "Einladung ohne Bezeichnung",
+      "revoke": "Widerrufen",
+      "revokeReason": "Grund des Widerrufs",
+      "confirmRevoke": "Einladung widerrufen"
+    },
+    "invitationStatus": {
+      "pending": "Offen",
+      "consumed": "Verwendet",
+      "revoked": "Widerrufen",
+      "expired": "Abgelaufen"
+    }
+  },
+  "adminTools": {
+    "common": {
+      "cancel": "Abbrechen"
+    },
+    "nav": {
+      "cities": "Städte",
+      "reports": "Berichte",
+      "audit": "Audit-Protokoll"
+    },
+    "status": {
+      "title": "Fahrerstatus",
+      "current": "Aktueller Status",
+      "choose": "Neuen Status wählen",
+      "reason": "Grund oder Notiz",
+      "apply": "Status ändern",
+      "history": "Statusverlauf",
+      "errors": {
+        "change": "Status konnte nicht geändert werden."
+      }
+    },
+    "cities": {
+      "empty": "Keine Städte gefunden.",
+      "title": "Städte",
+      "subtitle": "Einsatzorte verwalten und für neue Fahrer freigeben.",
+      "newName": "Neue Stadt",
+      "editName": "Stadtname",
+      "add": "Hinzufügen",
+      "save": "Speichern",
+      "name": "Stadt",
+      "drivers": "Fahrer",
+      "status": "Status",
+      "actions": "Aktionen",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "edit": "Bearbeiten",
+      "disable": "Deaktivieren",
+      "enable": "Aktivieren",
+      "errors": {
+        "save": "Stadt konnte nicht gespeichert werden.",
+        "status": "Status konnte nicht geändert werden."
+      }
+    },
+    "audit": {
+      "title": "Audit-Protokoll",
+      "subtitle": "Sicherheits- und Fachänderungen nachvollziehen.",
+      "eventFilter": "Ereignis, z. B. driver.status_changed",
+      "search": "Suchen",
+      "time": "Zeitpunkt",
+      "event": "Ereignis",
+      "actor": "Benutzer",
+      "subject": "Datensatz",
+      "request": "Request-ID",
+      "empty": "Keine Ereignisse gefunden.",
+      "error": "Audit-Protokoll konnte nicht geladen werden."
+    },
+    "reports": {
+      "title": "Berichte und Export",
+      "subtitle": "Gefilterte Daten als CSV für Excel herunterladen.",
+      "drivers": "Fahrerexport",
+      "settlements": "Abrechnungsexport",
+      "download": "CSV herunterladen",
+      "error": "Export konnte nicht erstellt werden."
+    }
+  },
+  "governance": {
+    "nav": {
+      "users": "Benutzer",
+      "privacy": "Datenschutzanfragen",
+      "readiness": "Systemstatus"
+    },
+    "users": {
+      "title": "Benutzer",
+      "subtitle": "Administrative Zugänge erstellen und verwalten.",
+      "name": "Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "create": "Admin erstellen",
+      "role": "Rolle",
+      "status": "Status",
+      "active": "Aktiv",
+      "inactive": "Deaktiviert",
+      "lastLogin": "Letzte Anmeldung",
+      "actions": "Aktionen",
+      "disable": "Deaktivieren",
+      "enable": "Aktivieren",
+      "delete": "Endgültig löschen",
+      "deleteTitle": "Benutzer endgültig löschen?",
+      "deleteDescription": "Das Zugangskonto von {{name}} wird unwiderruflich gelöscht. Zugehörige Fahrer-, Dokument- und Abrechnungsdaten bleiben erhalten.",
+      "deleteConfirm": "Endgültig löschen",
+      "deleteCancel": "Abbrechen",
+      "empty": "Keine Benutzer gefunden.",
+      "search": "Name oder E-Mail suchen",
+      "searchAction": "Suchen",
+      "created": "Admin wurde erstellt.",
+      "deleted": "Das Benutzerkonto wurde endgültig gelöscht.",
+      "errors": {
+        "create": "Der Benutzer konnte nicht erstellt werden.",
+        "update": "Der Benutzerstatus konnte nicht geändert werden.",
+        "delete": "Das Benutzerkonto konnte nicht gelöscht werden.",
+        "list": "Benutzer konnten nicht geladen werden."
+      }
+    },
+    "readiness": {
+      "title": "Produktionsbereitschaft",
+      "subtitle": "Technische Prüfungen vor dem Produktivstart.",
+      "ready": "Das System ist produktionsbereit",
+      "notReady": "Vor dem Start sind Maßnahmen erforderlich",
+      "hint": "Fehlgeschlagene Prüfungen beheben und Status aktualisieren.",
+      "error": "Der Systemstatus konnte nicht geladen werden.",
+      "checks": {
+        "environment": "Produktionsumgebung",
+        "debug_disabled": "Debug-Modus deaktiviert",
+        "application_key": "Anwendungsschlüssel",
+        "https_app_url": "Sichere API-URL",
+        "https_frontend_url": "Sichere Frontend-URL",
+        "secure_session_cookie": "Sicheres Session-Cookie",
+        "encrypted_session": "Verschlüsselte Sitzung",
+        "mysql_database": "MySQL-Datenbank",
+        "durable_queue": "Dauerhafte Warteschlange",
+        "durable_cache": "Dauerhafter Cache",
+        "document_scanner": "Dokumentenscanner",
+        "privacy_policy": "Freigegebene Datenschutzrichtlinie",
+        "retention_periods": "Aufbewahrungsfristen"
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzanfragen",
+      "subtitle": "Betroffenenanfragen und Fristen nachvollziehbar bearbeiten.",
+      "createTitle": "Anfrage erfassen",
+      "driver": "Fahrer",
+      "type": "Anfragetyp",
+      "status": "Status",
+      "receivedAt": "Eingangsdatum",
+      "dueAt": "Fällig am",
+      "source": "Eingangskanal",
+      "notes": "Interne Notizen",
+      "create": "Anfrage erfassen",
+      "actions": "Aktionen",
+      "open": "Bearbeiten",
+      "all": "Alle",
+      "deadline": "Frist",
+      "overdue": "Nur überfällige",
+      "empty": "Keine Datenschutzanfragen gefunden.",
+      "workflow": "Anfrage bearbeiten",
+      "nextStatus": "Nächster Status",
+      "chooseStatus": "Status wählen",
+      "reason": "Entscheidungsgrund",
+      "apply": "Übernehmen",
+      "holdReason": "Grund der rechtlichen Sperre",
+      "addHold": "Sperre setzen",
+      "removeHold": "Sperre aufheben",
+      "reference": "Abschlussreferenz",
+      "completionNotes": "Abschlussnotizen",
+      "complete": "Als abgeschlossen markieren",
+      "deletionPolicy": "Löschanfragen können erst nach Freigabe der Aufbewahrungs- und Löschrichtlinie abgeschlossen werden.",
+      "types": {
+        "access": "Auskunft",
+        "correction": "Berichtigung",
+        "deletion": "Löschung",
+        "restriction": "Einschränkung"
+      },
+      "statuses": {
+        "open": "Offen",
+        "under_review": "In Prüfung",
+        "approved": "Genehmigt",
+        "rejected": "Abgelehnt",
+        "completed": "Abgeschlossen",
+        "cancelled": "Storniert"
+      },
+      "sources": {
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "letter": "Brief",
+        "in_person": "Persönlich",
+        "other": "Sonstiges"
+      },
+      "records": {
+        "documents": "Dokumente",
+        "document_versions": "Dokumentversionen",
+        "settlements": "Abrechnungen",
+        "payments": "Zahlungen"
+      },
+      "searchDriver": "Fahrer nach Name, Telefon oder E-Mail suchen",
+      "searchAction": "Fahrer suchen",
+      "created": "Anfrage wurde erfasst.",
+      "updated": "Anfrage wurde aktualisiert.",
+      "errors": {
+        "create": "Die Anfrage konnte nicht erfasst werden.",
+        "update": "Die Anfrage konnte nicht aktualisiert werden.",
+        "list": "Anfragen konnten nicht geladen werden.",
+        "drivers": "Fahrer konnten nicht geladen werden.",
+        "details": "Anfragedetails konnten nicht geladen werden."
+      }
+    }
+  }
+}

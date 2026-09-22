@@ -1,0 +1,1006 @@
+[
+  {
+    "orderId": 101,
+    "status": {
+      "variant": "processing",
+      "label": "Processing"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "101-item-1",
+        "name": "Cotton T‑Shirt",
+        "category": "Apparel",
+        "color": "Black",
+        "qty": 2,
+        "imageUrl": "https://placehold.co/160x160/png?text=101-1-Cotton%20T%E2%80%91Shirt",
+        "price": 19.56
+      },
+      {
+        "id": "101-item-2",
+        "name": "Denim Jeans",
+        "category": "Apparel",
+        "color": "Blue",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=101-2-Denim%20Jeans",
+        "price": 23.47
+      },
+      {
+        "id": "101-item-3",
+        "name": "Socks Pack",
+        "category": "Apparel",
+        "color": "3 pairs",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=101-3-Socks%20Pack",
+        "price": 27.38
+      }
+    ],
+    "summary": {
+      "subtotal": 89.97,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 89.97
+    },
+    "customer": {
+      "name": "Cody Fisher",
+      "email": "cody.fisher@mail.com",
+      "phone": "+1 202 551000",
+      "ordersCount": 1
+    },
+    "shippingAddress": {
+      "name": "Cody Fisher",
+      "line1": "120 Market Street",
+      "line2": "Suite 10, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 102,
+    "status": {
+      "variant": "active",
+      "label": "Active"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "102-item-1",
+        "name": "Gaming Mouse",
+        "category": "Electronics",
+        "color": "RGB",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=102-1-Gaming%20Mouse",
+        "price": 29.32
+      },
+      {
+        "id": "102-item-2",
+        "name": "Mouse Pad",
+        "category": "Electronics",
+        "color": "XL",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=102-2-Mouse%20Pad",
+        "price": 35.18
+      }
+    ],
+    "summary": {
+      "subtotal": 64.5,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 64.5
+    },
+    "customer": {
+      "name": "Leslie Alexander",
+      "email": "leslie.alexander@mail.com",
+      "phone": "+1 202 551001",
+      "ordersCount": 2
+    },
+    "shippingAddress": {
+      "name": "Leslie Alexander",
+      "line1": "121 Market Street",
+      "line2": "Suite 11, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-103",
+    "status": {
+      "variant": "shipped"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-103-item-1",
+        "name": "Bluetooth Speaker",
+        "category": "General",
+        "color": "Navy",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-103-1-Bluetooth%20Speaker",
+        "price": 37.94
+      },
+      {
+        "id": "A-103-item-2",
+        "name": "Power Bank",
+        "category": "General",
+        "color": "10,000mAh",
+        "qty": 2,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-103-2-Power%20Bank",
+        "price": 45.53
+      }
+    ],
+    "summary": {
+      "subtotal": 129,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 129
+    },
+    "customer": {
+      "name": "Kristin Watson",
+      "email": "kristin.watson@mail.com",
+      "phone": "+1 202 551002",
+      "ordersCount": 3
+    },
+    "shippingAddress": {
+      "name": "Kristin Watson",
+      "line1": "122 Market Street",
+      "line2": "Suite 12, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-104",
+    "status": {
+      "variant": "delivered",
+      "label": "Delivered"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-104-item-1",
+        "name": "Office Chair",
+        "category": "Home",
+        "color": "Ergonomic",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-104-1-Office%20Chair",
+        "price": 249.99
+      }
+    ],
+    "summary": {
+      "subtotal": 249.99,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 249.99
+    },
+    "customer": {
+      "name": "Jenny Wilson",
+      "email": "jenny.wilson@mail.com",
+      "phone": "+1 202 551003",
+      "ordersCount": 4
+    },
+    "shippingAddress": {
+      "name": "Jenny Wilson",
+      "line1": "123 Market Street",
+      "line2": "Suite 13, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 105,
+    "status": {
+      "variant": "overdue",
+      "label": "Over Time"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "105-item-1",
+        "name": "Air Purifier",
+        "category": "General",
+        "color": "HEPA",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=105-1-Air%20Purifier",
+        "price": 90.45
+      },
+      {
+        "id": "105-item-2",
+        "name": "Replacement Filter",
+        "category": "General",
+        "color": "Pack of 2",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=105-2-Replacement%20Filter",
+        "price": 108.55
+      }
+    ],
+    "summary": {
+      "subtotal": 199,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 199
+    },
+    "customer": {
+      "name": "Dianne Russell",
+      "email": "dianne.russell@mail.com",
+      "phone": "+1 202 551004",
+      "ordersCount": 5
+    },
+    "shippingAddress": {
+      "name": "Dianne Russell",
+      "line1": "124 Market Street",
+      "line2": "Suite 14, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-106",
+    "status": {
+      "variant": "cancelled",
+      "label": "Cancelled"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-106-item-1",
+        "name": "Running Shoes",
+        "category": "Apparel",
+        "color": "Gray",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-106-1-Running%20Shoes",
+        "price": 51.13
+      },
+      {
+        "id": "A-106-item-2",
+        "name": "Sport Bottle",
+        "category": "Sports",
+        "color": "750ml",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-106-2-Sport%20Bottle",
+        "price": 61.36
+      }
+    ],
+    "summary": {
+      "subtotal": 112.49,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 112.49
+    },
+    "customer": {
+      "name": "Kathryn Murphy",
+      "email": "kathryn.murphy@mail.com",
+      "phone": "+1 202 551005",
+      "ordersCount": 1
+    },
+    "shippingAddress": {
+      "name": "Kathryn Murphy",
+      "line1": "125 Market Street",
+      "line2": "Suite 15, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 107,
+    "status": {
+      "variant": "processing"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "107-item-1",
+        "name": "Ceramic Mug",
+        "category": "Kitchen",
+        "color": "White",
+        "qty": 4,
+        "imageUrl": "https://placehold.co/160x160/png?text=107-1-Ceramic%20Mug",
+        "price": 11.16
+      },
+      {
+        "id": "107-item-2",
+        "name": "Tea Sampler",
+        "category": "Kitchen",
+        "color": "Assorted",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=107-2-Tea%20Sampler",
+        "price": 13.38
+      }
+    ],
+    "summary": {
+      "subtotal": 58.02,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 58.02
+    },
+    "customer": {
+      "name": "Eleanor Pena",
+      "email": "eleanor.pena@mail.com",
+      "phone": "+1 202 551006",
+      "ordersCount": 2
+    },
+    "shippingAddress": {
+      "name": "Eleanor Pena",
+      "line1": "126 Market Street",
+      "line2": "Suite 16, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-108",
+    "status": {
+      "variant": "active"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-108-item-1",
+        "name": "Laptop Sleeve",
+        "category": "Electronics",
+        "color": "15-inch",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-108-1-Laptop%20Sleeve",
+        "price": 22.19
+      },
+      {
+        "id": "A-108-item-2",
+        "name": "USB‑C Hub",
+        "category": "Electronics",
+        "color": "8‑in‑1",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-108-2-USB%E2%80%91C%20Hub",
+        "price": 26.63
+      },
+      {
+        "id": "A-108-item-3",
+        "name": "HDMI Cable",
+        "category": "Electronics",
+        "color": "2m",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-108-3-HDMI%20Cable",
+        "price": 31.08
+      }
+    ],
+    "summary": {
+      "subtotal": 79.9,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 79.9
+    },
+    "customer": {
+      "name": "Marvin McKinney",
+      "email": "marvin.mckinney@mail.com",
+      "phone": "+1 202 551007",
+      "ordersCount": 3
+    },
+    "shippingAddress": {
+      "name": "Marvin McKinney",
+      "line1": "127 Market Street",
+      "line2": "Suite 17, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 109,
+    "status": {
+      "variant": "shipped",
+      "label": "Shipped"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "109-item-1",
+        "name": "Skincare Set",
+        "category": "Beauty",
+        "color": "Sensitive",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=109-1-Skincare%20Set",
+        "price": 41.18
+      },
+      {
+        "id": "109-item-2",
+        "name": "Face Cleanser",
+        "category": "Beauty",
+        "color": "200ml",
+        "qty": 2,
+        "imageUrl": "https://placehold.co/160x160/png?text=109-2-Face%20Cleanser",
+        "price": 49.41
+      }
+    ],
+    "summary": {
+      "subtotal": 140,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 140
+    },
+    "customer": {
+      "name": "Annette Black",
+      "email": "annette.black@mail.com",
+      "phone": "+1 202 551008",
+      "ordersCount": 4
+    },
+    "shippingAddress": {
+      "name": "Annette Black",
+      "line1": "128 Market Street",
+      "line2": "Suite 18, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-110",
+    "status": {
+      "variant": "delivered"
+    },
+    "currency": "€",
+    "items": [
+      {
+        "id": "A-110-item-1",
+        "name": "Coffee Grinder",
+        "category": "Kitchen",
+        "color": "Burr",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-110-1-Coffee%20Grinder",
+        "price": 28.46
+      },
+      {
+        "id": "A-110-item-2",
+        "name": "Espresso Beans",
+        "category": "Kitchen",
+        "color": "1kg",
+        "qty": 2,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-110-2-Espresso%20Beans",
+        "price": 34.15
+      }
+    ],
+    "summary": {
+      "subtotal": 96.76,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 96.76
+    },
+    "customer": {
+      "name": "Wade Warren",
+      "email": "wade.warren@mail.com",
+      "phone": "+1 202 551009",
+      "ordersCount": 5
+    },
+    "shippingAddress": {
+      "name": "Wade Warren",
+      "line1": "129 Market Street",
+      "line2": "Suite 19, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 111,
+    "status": {
+      "variant": "processing"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "111-item-1",
+        "name": "Baby Stroller",
+        "category": "Baby",
+        "color": "Compact",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=111-1-Baby%20Stroller",
+        "price": 319.99
+      }
+    ],
+    "summary": {
+      "subtotal": 319.99,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 319.99
+    },
+    "customer": {
+      "name": "Savannah Nguyen",
+      "email": "savannah.nguyen@mail.com",
+      "phone": "+1 202 551010",
+      "ordersCount": 1
+    },
+    "shippingAddress": {
+      "name": "Savannah Nguyen",
+      "line1": "130 Market Street",
+      "line2": "Suite 20, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-112",
+    "status": {
+      "variant": "active"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-112-item-1",
+        "name": "Notebook",
+        "category": "Office",
+        "color": "A5",
+        "qty": 6,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-112-1-Notebook",
+        "price": 8.63
+      },
+      {
+        "id": "A-112-item-2",
+        "name": "Gel Pens",
+        "category": "Office",
+        "color": "Set of 12",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-112-2-Gel%20Pens",
+        "price": 10.35
+      },
+      {
+        "id": "A-112-item-3",
+        "name": "Desk Organizer",
+        "category": "Home",
+        "color": "Bamboo",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-112-3-Desk%20Organizer",
+        "price": 12.08
+      }
+    ],
+    "summary": {
+      "subtotal": 74.21,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 74.21
+    },
+    "customer": {
+      "name": "Courtney Henry",
+      "email": "courtney.henry@mail.com",
+      "phone": "+1 202 551011",
+      "ordersCount": 2
+    },
+    "shippingAddress": {
+      "name": "Courtney Henry",
+      "line1": "131 Market Street",
+      "line2": "Suite 21, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 113,
+    "status": {
+      "variant": "shipped"
+    },
+    "currency": "£",
+    "items": [
+      {
+        "id": "113-item-1",
+        "name": "LED Strip Lights",
+        "category": "Home",
+        "color": "5m",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=113-1-LED%20Strip%20Lights",
+        "price": 17.64
+      },
+      {
+        "id": "113-item-2",
+        "name": "Smart Plug",
+        "category": "Electronics",
+        "color": "Wi‑Fi",
+        "qty": 2,
+        "imageUrl": "https://placehold.co/160x160/png?text=113-2-Smart%20Plug",
+        "price": 21.18
+      }
+    ],
+    "summary": {
+      "subtotal": 60,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 60
+    },
+    "customer": {
+      "name": "Ronald Richards",
+      "email": "ronald.richards@mail.com",
+      "phone": "+1 202 551012",
+      "ordersCount": 3
+    },
+    "shippingAddress": {
+      "name": "Ronald Richards",
+      "line1": "132 Market Street",
+      "line2": "Suite 22, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-114",
+    "status": {
+      "variant": "cancelled"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-114-item-1",
+        "name": "Yoga Mat",
+        "category": "Apparel",
+        "color": "6mm",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-114-1-Yoga%20Mat",
+        "price": 18.64
+      },
+      {
+        "id": "A-114-item-2",
+        "name": "Resistance Bands",
+        "category": "Sports",
+        "color": "Set",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-114-2-Resistance%20Bands",
+        "price": 22.36
+      }
+    ],
+    "summary": {
+      "subtotal": 41,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 41
+    },
+    "customer": {
+      "name": "Jacob Jones",
+      "email": "jacob.jones@mail.com",
+      "phone": "+1 202 551013",
+      "ordersCount": 4
+    },
+    "shippingAddress": {
+      "name": "Jacob Jones",
+      "line1": "133 Market Street",
+      "line2": "Suite 23, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 115,
+    "status": {
+      "variant": "delivered"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "115-item-1",
+        "name": "Cookware Set",
+        "category": "Kitchen",
+        "color": "Non‑stick",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=115-1-Cookware%20Set",
+        "price": 131.59
+      },
+      {
+        "id": "115-item-2",
+        "name": "Chef Knife",
+        "category": "Kitchen",
+        "color": "8-inch",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=115-2-Chef%20Knife",
+        "price": 157.91
+      }
+    ],
+    "summary": {
+      "subtotal": 289.5,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 289.5
+    },
+    "customer": {
+      "name": "Arlene McCoy",
+      "email": "arlene.mccoy@mail.com",
+      "phone": "+1 202 551014",
+      "ordersCount": 5
+    },
+    "shippingAddress": {
+      "name": "Arlene McCoy",
+      "line1": "134 Market Street",
+      "line2": "Suite 24, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-116",
+    "status": {
+      "variant": "active"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-116-item-1",
+        "name": "Camera Tripod",
+        "category": "Electronics",
+        "color": "Carbon",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-116-1-Camera%20Tripod",
+        "price": 37.29
+      },
+      {
+        "id": "A-116-item-2",
+        "name": "SD Card",
+        "category": "Electronics",
+        "color": "128GB",
+        "qty": 2,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-116-2-SD%20Card",
+        "price": 44.75
+      },
+      {
+        "id": "A-116-item-3",
+        "name": "Lens Cleaning Kit",
+        "category": "General",
+        "color": "Standard",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-116-3-Lens%20Cleaning%20Kit",
+        "price": 52.2
+      }
+    ],
+    "summary": {
+      "subtotal": 178.99,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 178.99
+    },
+    "customer": {
+      "name": "Floyd Miles",
+      "email": "floyd.miles@mail.com",
+      "phone": "+1 202 551015",
+      "ordersCount": 1
+    },
+    "shippingAddress": {
+      "name": "Floyd Miles",
+      "line1": "135 Market Street",
+      "line2": "Suite 25, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 117,
+    "status": {
+      "variant": "processing"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "117-item-1",
+        "name": "Table Lamp",
+        "category": "Home",
+        "color": "Warm White",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=117-1-Table%20Lamp",
+        "price": 39.95
+      }
+    ],
+    "summary": {
+      "subtotal": 39.95,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 39.95
+    },
+    "customer": {
+      "name": "Guy Hawkins",
+      "email": "guy.hawkins@mail.com",
+      "phone": "+1 202 551016",
+      "ordersCount": 2
+    },
+    "shippingAddress": {
+      "name": "Guy Hawkins",
+      "line1": "136 Market Street",
+      "line2": "Suite 26, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-118",
+    "status": {
+      "variant": "overdue"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-118-item-1",
+        "name": "Mountain Bike Helmet",
+        "category": "Sports",
+        "color": "L",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-118-1-Mountain%20Bike%20Helmet",
+        "price": 60.14
+      },
+      {
+        "id": "A-118-item-2",
+        "name": "Bike Lock",
+        "category": "Sports",
+        "color": "U‑Lock",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-118-2-Bike%20Lock",
+        "price": 72.16
+      }
+    ],
+    "summary": {
+      "subtotal": 132.3,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 132.3
+    },
+    "customer": {
+      "name": "Bessie Cooper",
+      "email": "bessie.cooper@mail.com",
+      "phone": "+1 202 551017",
+      "ordersCount": 3
+    },
+    "shippingAddress": {
+      "name": "Bessie Cooper",
+      "line1": "137 Market Street",
+      "line2": "Suite 27, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": 119,
+    "status": {
+      "variant": "shipped"
+    },
+    "currency": "€",
+    "items": [
+      {
+        "id": "119-item-1",
+        "name": "Perfume",
+        "category": "Beauty",
+        "color": "50ml",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=119-1-Perfume",
+        "price": 95.45
+      },
+      {
+        "id": "119-item-2",
+        "name": "Gift Box",
+        "category": "General",
+        "color": "Premium",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=119-2-Gift%20Box",
+        "price": 114.55
+      }
+    ],
+    "summary": {
+      "subtotal": 210,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 210
+    },
+    "customer": {
+      "name": "Theresa Webb",
+      "email": "theresa.webb@mail.com",
+      "phone": "+1 202 551018",
+      "ordersCount": 4
+    },
+    "shippingAddress": {
+      "name": "Theresa Webb",
+      "line1": "138 Market Street",
+      "line2": "Suite 28, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  },
+  {
+    "orderId": "A-120",
+    "status": {
+      "variant": "delivered"
+    },
+    "currency": "$",
+    "items": [
+      {
+        "id": "A-120-item-1",
+        "name": "Smart Thermostat",
+        "category": "Electronics",
+        "color": "Gen 3",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-120-1-Smart%20Thermostat",
+        "price": 77.5
+      },
+      {
+        "id": "A-120-item-2",
+        "name": "Installation Kit",
+        "category": "General",
+        "color": "Standard",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-120-2-Installation%20Kit",
+        "price": 93
+      },
+      {
+        "id": "A-120-item-3",
+        "name": "Batteries",
+        "category": "General",
+        "color": "AA",
+        "qty": 1,
+        "imageUrl": "https://placehold.co/160x160/png?text=A-120-3-Batteries",
+        "price": 108.5
+      }
+    ],
+    "summary": {
+      "subtotal": 279,
+      "shipping": 0,
+      "taxes": 0,
+      "discount": 0,
+      "total": 279
+    },
+    "customer": {
+      "name": "Ralph Edwards",
+      "email": "ralph.edwards@mail.com",
+      "phone": "+1 202 551019",
+      "ordersCount": 5
+    },
+    "shippingAddress": {
+      "name": "Ralph Edwards",
+      "line1": "139 Market Street",
+      "line2": "Suite 29, Springfield",
+      "country": "United States"
+    },
+    "billingAddress": {
+      "sameAsShipping": true
+    }
+  }
+]

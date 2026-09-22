@@ -1,0 +1,380 @@
+[
+  {
+    "id": "p-1001",
+    "name": "Apple MacBook Air 13\" (M2, 8‑Core CPU)",
+    "subtitle": "8GB RAM | 256GB SSD | Midnight",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=70",
+    "price": 999,
+    "oldPrice": 1099,
+    "currency": "USD",
+    "rating": 4.8,
+    "soldCount": 12840,
+    "colors": [
+      { "id": "midnight", "hex": "#111827", "label": "Midnight" },
+      { "id": "starlight", "hex": "#E7E2D3", "label": "Starlight" },
+      { "id": "silver", "hex": "#D1D5DB", "label": "Silver" }
+    ],
+    "badge": "Best Seller"
+  },
+  {
+    "id": "p-1002",
+    "name": "Sony WH‑1000XM5 Wireless Noise Canceling Headphones",
+    "subtitle": "ANC | 30h battery | Multipoint",
+    "imageUrl": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=1200&q=70",
+    "price": 349,
+    "oldPrice": 399,
+    "currency": "USD",
+    "rating": 4.7,
+    "soldCount": 9620,
+    "colors": [
+      { "id": "black", "hex": "#0B0F19", "label": "Black" },
+      { "id": "silver", "hex": "#E5E7EB", "label": "Silver" }
+    ],
+    "badge": "Hot"
+  },
+  {
+    "id": "p-1003",
+    "name": "Samsung Galaxy S24 (Unlocked)",
+    "subtitle": "256GB | 8GB RAM | 5G",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=70",
+    "price": 799,
+    "oldPrice": 899,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 21530,
+    "colors": [
+      { "id": "graphite", "hex": "#374151", "label": "Graphite" },
+      { "id": "violet", "hex": "#7C3AED", "label": "Violet" },
+      { "id": "cream", "hex": "#F5F5F4", "label": "Cream" }
+    ],
+    "badge": "New"
+  },
+  {
+    "id": "p-1004",
+    "name": "Canon EOS R50 Mirrorless Camera",
+    "subtitle": "24.2MP | 4K | 18–45mm kit",
+    "imageUrl": "https://images.unsplash.com/photo-1641770058653-6ba80f9b7ebc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 679,
+    "oldPrice": 749,
+    "currency": "USD",
+    "rating": 4.5,
+    "soldCount": 4310,
+    "colors": [
+      { "id": "black", "hex": "#111827", "label": "Black" }
+    ],
+    "badge": "Popular"
+  },
+  {
+    "id": "p-1005",
+    "name": "Nintendo Switch OLED Model",
+    "subtitle": "64GB | 7\" OLED | White Joy‑Con",
+    "imageUrl": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=1200&q=70",
+    "price": 349,
+    "currency": "USD",
+    "rating": 4.8,
+    "soldCount": 18640,
+    "colors": [
+      { "id": "white", "hex": "#F9FAFB", "label": "White" },
+      { "id": "black", "hex": "#111827", "label": "Black" }
+    ],
+    "badge": "Best Seller"
+  },
+  {
+    "id": "p-1006",
+    "name": "Logitech MX Master 3S Wireless Mouse",
+    "subtitle": "Silent clicks | USB‑C | Multi‑device",
+    "imageUrl": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=1200&q=70",
+    "price": 99,
+    "oldPrice": 119,
+    "currency": "USD",
+    "rating": 4.7,
+    "soldCount": 15420,
+    "colors": [
+      { "id": "graphite", "hex": "#374151", "label": "Graphite" },
+      { "id": "pale-gray", "hex": "#E5E7EB", "label": "Pale Gray" }
+    ]
+  },
+  {
+    "id": "p-1007",
+    "name": "Apple Watch Series 9",
+    "subtitle": "45mm | GPS | Sport Band",
+    "imageUrl": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=1200&q=70",
+    "price": 399,
+    "oldPrice": 429,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 11210,
+    "colors": [
+      { "id": "midnight", "hex": "#111827", "label": "Midnight" },
+      { "id": "starlight", "hex": "#E7E2D3", "label": "Starlight" },
+      { "id": "red", "hex": "#EF4444", "label": "Product Red" }
+    ],
+    "badge": "New"
+  },
+  {
+    "id": "p-1008",
+    "name": "Kindle Paperwhite (11th Gen)",
+    "subtitle": "6.8\" display | Warm light | 8GB",
+    "imageUrl": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=70",
+    "price": 139,
+    "oldPrice": 159,
+    "currency": "USD",
+    "rating": 4.7,
+    "soldCount": 20780,
+    "colors": [
+      { "id": "black", "hex": "#111827", "label": "Black" },
+      { "id": "agave", "hex": "#10B981", "label": "Agave Green" }
+    ]
+  },
+  {
+    "id": "p-1009",
+    "name": "Anker 737 Power Bank (PowerCore 24K)",
+    "subtitle": "24,000mAh | 140W USB‑C | Display",
+    "imageUrl": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=1200&q=70",
+    "price": 129,
+    "oldPrice": 149,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 8450,
+    "colors": [
+      { "id": "black", "hex": "#111827", "label": "Black" }
+    ],
+    "badge": "Popular"
+  },
+  {
+    "id": "p-1010",
+    "name": "Hydro Flask Wide Mouth Bottle",
+    "subtitle": "32 oz | Insulated | Leakproof",
+    "imageUrl": "https://images.unsplash.com/photo-1695634237993-bc78445be786?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 44,
+    "currency": "USD",
+    "rating": 4.7,
+    "soldCount": 13980,
+    "colors": [
+      { "id": "navy", "hex": "#1E3A8A", "label": "Navy" },
+      { "id": "mint", "hex": "#34D399", "label": "Mint" },
+      { "id": "white", "hex": "#F9FAFB", "label": "White" }
+    ]
+  },
+  {
+    "id": "p-1011",
+    "name": "Levi's 501 Original Fit Jeans",
+    "subtitle": "Men's | Straight leg | 100% cotton",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=1200&q=70",
+    "price": 69,
+    "oldPrice": 89,
+    "currency": "USD",
+    "rating": 4.4,
+    "soldCount": 22410,
+    "colors": [
+      { "id": "indigo", "hex": "#1D4ED8", "label": "Indigo" },
+      { "id": "black", "hex": "#111827", "label": "Black" }
+    ],
+    "badge": "Best Seller"
+  },
+  {
+    "id": "p-1012",
+    "name": "Nike Air Max Running Sneakers",
+    "subtitle": "Breathable mesh | Cushioned sole",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=70",
+    "price": 129,
+    "oldPrice": 159,
+    "currency": "USD",
+    "rating": 4.5,
+    "soldCount": 17890,
+    "colors": [
+      { "id": "black", "hex": "#111827", "label": "Black" },
+      { "id": "white", "hex": "#F9FAFB", "label": "White" },
+      { "id": "red", "hex": "#EF4444", "label": "Red" }
+    ],
+    "badge": "Hot"
+  },
+  {
+    "id": "p-1013",
+    "name": "Patagonia Better Sweater Fleece Jacket",
+    "subtitle": "Recycled polyester | Full‑zip",
+    "imageUrl": "https://images.unsplash.com/photo-1640746791140-4ab07eb35c6d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 139,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 6420,
+    "colors": [
+      { "id": "stone", "hex": "#D6D3D1", "label": "Stone" },
+      { "id": "navy", "hex": "#1E3A8A", "label": "Navy" },
+      { "id": "forest", "hex": "#14532D", "label": "Forest" }
+    ]
+  },
+  {
+    "id": "p-1014",
+    "name": "Herschel Little America Backpack",
+    "subtitle": "25L | Laptop sleeve | Classic",
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=70",
+    "price": 109,
+    "oldPrice": 129,
+    "currency": "USD",
+    "rating": 4.5,
+    "soldCount": 5130,
+    "colors": [
+      { "id": "black", "hex": "#111827", "label": "Black" },
+      { "id": "tan", "hex": "#D97706", "label": "Tan" }
+    ]
+  },
+  {
+    "id": "p-1015",
+    "name": "IKEA RÅSKOG Utility Cart",
+    "subtitle": "3‑tier | Steel | Easy roll",
+    "imageUrl": "https://images.unsplash.com/photo-1565791380713-1756b9a05343?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 39,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 9010,
+    "colors": [
+      { "id": "white", "hex": "#F9FAFB", "label": "White" },
+      { "id": "black", "hex": "#111827", "label": "Black" },
+      { "id": "teal", "hex": "#0EA5E9", "label": "Teal" }
+    ],
+    "badge": "Popular"
+  },
+  {
+    "id": "p-1016",
+    "name": "Philips Hue White & Color Ambiance Starter Kit",
+    "subtitle": "2 bulbs | Bridge | App control",
+    "imageUrl": "https://images.unsplash.com/photo-1558442074-3c19857bc1dc?auto=format&fit=crop&w=1200&q=70",
+    "price": 189,
+    "oldPrice": 229,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 7320,
+    "colors": [
+      { "id": "white", "hex": "#F9FAFB", "label": "White" }
+    ],
+    "badge": "Smart Home"
+  },
+  {
+    "id": "p-1017",
+    "name": "Bialetti Moka Express Stovetop Espresso Maker",
+    "subtitle": "6‑cup | Aluminum | Made in Italy",
+    "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=70",
+    "price": 39,
+    "oldPrice": 49,
+    "currency": "USD",
+    "rating": 4.7,
+    "soldCount": 16750,
+    "colors": [
+      { "id": "silver", "hex": "#D1D5DB", "label": "Aluminum" },
+      { "id": "black", "hex": "#111827", "label": "Black" }
+    ],
+    "badge": "Best Seller"
+  },
+  {
+    "id": "p-1018",
+    "name": "Dyson V12 Detect Slim Cordless Vacuum",
+    "subtitle": "Laser dust detection | HEPA | Lightweight",
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=1200&q=70",
+    "price": 549,
+    "oldPrice": 649,
+    "currency": "USD",
+    "rating": 4.5,
+    "soldCount": 3890,
+    "colors": [
+      { "id": "silver", "hex": "#D1D5DB", "label": "Silver" },
+      { "id": "blue", "hex": "#3B82F6", "label": "Blue" }
+    ],
+    "badge": "Premium"
+  },
+  {
+    "id": "p-1019",
+    "name": "KitchenAid Artisan Stand Mixer",
+    "subtitle": "5‑Qt | 10 speeds | Tilt‑head",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1718043036199-d98bef36af46?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 349,
+    "oldPrice": 429,
+    "currency": "USD",
+    "rating": 4.8,
+    "soldCount": 6240,
+    "colors": [
+      { "id": "red", "hex": "#DC2626", "label": "Empire Red" },
+      { "id": "cream", "hex": "#FAFAF9", "label": "Creme" },
+      { "id": "black", "hex": "#111827", "label": "Onyx Black" }
+    ],
+    "badge": "Top Rated"
+  },
+  {
+    "id": "p-1020",
+    "name": "YETI Rambler Tumbler",
+    "subtitle": "20 oz | Stainless steel | Lid included",
+    "imageUrl": "https://images.unsplash.com/photo-1569614552554-8b10446e35c8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 35,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 11990,
+    "colors": [
+      { "id": "black", "hex": "#111827", "label": "Black" },
+      { "id": "white", "hex": "#F9FAFB", "label": "White" },
+      { "id": "seafoam", "hex": "#2DD4BF", "label": "Seafoam" }
+    ]
+  },
+  {
+    "id": "p-1021",
+    "name": "Bose SoundLink Flex Bluetooth Speaker",
+    "subtitle": "Waterproof (IP67) | 12h battery",
+    "imageUrl": "https://images.unsplash.com/photo-1588131153911-a4ea5189fe19?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 149,
+    "oldPrice": 169,
+    "currency": "USD",
+    "rating": 4.5,
+    "soldCount": 7580,
+    "colors": [
+      { "id": "black", "hex": "#111827", "label": "Black" },
+      { "id": "blue", "hex": "#2563EB", "label": "Blue" },
+      { "id": "sand", "hex": "#F5F5F4", "label": "Sand" }
+    ],
+    "badge": "Outdoor"
+  },
+  {
+    "id": "p-1022",
+    "name": "Instant Pot Duo 7‑in‑1 Electric Pressure Cooker",
+    "subtitle": "6 Qt | Pressure cook, slow cook, steam",
+    "imageUrl": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1200&q=70",
+    "price": 89,
+    "oldPrice": 119,
+    "currency": "USD",
+    "rating": 4.7,
+    "soldCount": 29410,
+    "colors": [
+      { "id": "silver", "hex": "#D1D5DB", "label": "Stainless" },
+      { "id": "black", "hex": "#111827", "label": "Black" }
+    ],
+    "badge": "Best Seller"
+  },
+  {
+    "id": "p-1023",
+    "name": "MUJI Aroma Diffuser",
+    "subtitle": "Ultrasonic | LED light | Quiet",
+    "imageUrl": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=70",
+    "price": 59,
+    "currency": "USD",
+    "rating": 4.4,
+    "soldCount": 4850,
+    "colors": [
+      { "id": "white", "hex": "#F9FAFB", "label": "White" },
+      { "id": "warm-gray", "hex": "#D6D3D1", "label": "Warm Gray" }
+    ],
+    "badge": "Wellness"
+  },
+  {
+    "id": "p-1024",
+    "name": "Nalgene Wide Mouth Bottle",
+    "subtitle": "32 oz | BPA‑free | Dishwasher safe",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1681408059522-b83aa9c0a0be?q=80&w=718&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 16,
+    "currency": "USD",
+    "rating": 4.6,
+    "soldCount": 26110,
+    "colors": [
+      { "id": "clear", "hex": "#E5E7EB", "label": "Clear" },
+      { "id": "blue", "hex": "#3B82F6", "label": "Blue" },
+      { "id": "orange", "hex": "#F97316", "label": "Orange" }
+    ]
+  }
+]

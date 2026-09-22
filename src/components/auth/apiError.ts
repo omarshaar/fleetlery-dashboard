@@ -1,0 +1,3 @@
+import type { FetchBaseQueryError } from "@reduxjs/toolkit/query"
+type ErrorData = { error?: { message?: string; details?: { fields?: Record<string, string[]> } }; message?: string; errors?: Record<string, string[]> }
+export function apiError(error: unknown, fallback: string): { message: string; fields: Record<string, string[]> } { if (!error || typeof error !== "object" || !("status" in error)) return { message: fallback, fields: {} }; const data = (error as FetchBaseQueryError).data as ErrorData | undefined; return { message: data?.error?.message ?? data?.message ?? fallback, fields: data?.error?.details?.fields ?? data?.errors ?? {} } }

@@ -1,0 +1,91 @@
+{
+  "calender": {
+    "event": {
+      "untitled": "Ohne Titel"
+    },
+    "dialogs": {
+      "create": {
+        "title": "Termin erstellen",
+        "description": "Tragen Sie die Termindetails ein",
+        "fields": {
+          "title": "Titel",
+          "startDate": "Startdatum",
+          "startTime": "Startzeit",
+          "endDate": "Enddatum",
+          "endTime": "Endzeit"
+        }
+      },
+      "edit": {
+        "title": "Termin bearbeiten",
+        "description": "Bearbeiten Sie die Termindetails",
+        "fields": {
+          "title": "Titel",
+          "startDate": "Startdatum",
+          "startTime": "Startzeit",
+          "endDate": "Enddatum",
+          "endTime": "Endzeit"
+        }
+      },
+      "color": {
+        "label": "Terminfarbe",
+        "change": "Farbe ändern",
+        "pickerTitle": "Farbe auswählen",
+        "pickerDescription": "Wählen Sie die Terminfarbe"
+      }
+    },
+    "actions": {
+      "close": "Schließen",
+      "save": "Speichern",
+      "delete": "Löschen",
+      "confirm": "Bestätigen"
+    },
+    "rbc": {
+      "today": "Heute",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "month": "Monat",
+      "week": "Woche",
+      "day": "Tag",
+      "agenda": "Agenda",
+      "date": "Datum",
+      "time": "Uhrzeit",
+      "event": "Termin",
+      "noEventsInRange": "Keine Termine in diesem Zeitraum.",
+      "showMore": "+{{count}} mehr"
+    }
+  },
+
+  "system": {
+    "state": {
+      "loading": "Wird geladen...",
+      "error": "Etwas ist schiefgelaufen.",
+      "empty": "Keine Daten zum Anzeigen."
+    }
+  },
+
+  "productListBlock": {
+    "title": "Produkte",
+    "views": {
+      "grid": "Raster",
+      "list": "Liste",
+      "table": "Tabelle"
+    },
+    "states": {
+      "loading": "Wird geladen...",
+      "error": "Etwas ist schiefgelaufen.",
+      "empty": "Keine Produkte zum Anzeigen."
+    },
+    "table": {
+      "searchPlaceholder": "Produkte suchen...",
+      "columns": {
+        "image": "Bild",
+        "name": "Name",
+        "subtitle": "Untertitel",
+        "price": "Preis",
+        "badge": "Kennzeichen",
+        "action": "Aktion"
+      },
+      "actionLabel": "Details"
+    }
+  }
+}

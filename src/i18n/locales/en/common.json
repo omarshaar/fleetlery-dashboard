@@ -1,0 +1,751 @@
+{
+  "common": {
+    "search": "Quick Search...",
+    "yes": "Yes",
+    "no": "No",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "verified": "Verified",
+    "unverified": "Unverified",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "loading": "Loading…"
+  },
+  "navigation": {
+    "commingSoon": "Coming Soon",
+    "notFound": "404 Page",
+    "dashboard": "Dashboard"
+  },
+  "system": {
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you’re looking for doesn’t exist or may have been moved.",
+      "actions": {
+        "home": "Go to Home",
+        "back": "Go Back"
+      }
+    },
+    "commingSoon": {
+      "description": "Get ready everyone! We are currently working on something awesome.",
+      "email": {
+        "placeholder": "Email address",
+        "cta": "Notify Me",
+        "success": "Thanks!"
+      }
+    },
+    "forbidden": {
+      "description": "You do not have permission to view this page.",
+      "home": "Go home",
+      "title": "Access denied"
+    }
+  },
+  "header": {
+    "sidebar": {
+      "search": "Search..."
+    },
+    "theme": {
+      "toggle": "Toggle theme"
+    },
+    "notifications": {
+      "label": "Notifications"
+    },
+    "search": {
+      "placeholder": "Search…"
+    },
+    "dashboard": "Fleetlery"
+  },
+  "colorPicker": {
+    "selectColor": "Select Color"
+  },
+  "formBuilder": {
+    "avatar": {
+      "preview": "Avatar preview",
+      "removeImage": "Remove image",
+      "clickToUpload": "Click to upload"
+    }
+  },
+  "ecommerce": {
+    "orders": {
+      "filters": {
+        "status": {
+          "options": {
+            "active": "Active",
+            "processing": "Processing",
+            "shipped": "Shipped",
+            "delivered": "Delivered",
+            "overdue": "Overdue",
+            "cancelled": "Cancelled"
+          }
+        }
+      }
+    },
+    "orderCard": {
+      "moreItems": "....... and {{count}} more items",
+      "actions": {
+        "open": "Open order"
+      }
+    }
+  },
+  "driver": {
+    "home": {
+      "title": "Employee area",
+      "subtitle": "Your personal Fleetlery area will be built step by step."
+    }
+  },
+  "admin": {
+    "home": {
+      "welcome": "Welcome, {{name}}.",
+      "subtitle": "Fleetlery administration area",
+      "foundationTitle": "Foundation is ready",
+      "foundationDescription": "Authentication, roles, permissions, and secure routes are ready for the next business modules.",
+      "title": "Administration"
+    },
+    "dashboard": {
+      "allCities": "All cities",
+      "subtitle": "Current Fleetlery operational status",
+      "cityFilter": "Filter by city",
+      "cities": {
+        "empty": "No city data is available for this selection.",
+        "title": "Drivers by city"
+      },
+      "retry": "Try again",
+      "title": "Dashboard",
+      "error": "Dashboard data could not be loaded.",
+      "kpi": {
+        "review": "Under review",
+        "missingDocuments": "Missing documents",
+        "total": "Total drivers",
+        "openSettlements": "Open payouts",
+        "new": "New drivers",
+        "active": "Active drivers"
+      },
+      "refresh": "Refresh",
+      "attention": {
+        "identityExpiring": "IDs expiring within 30 days",
+        "title": "Needs attention",
+        "rejectedDocuments": "Rejected documents",
+        "privacyOverdue": "Overdue privacy requests",
+        "identityExpired": "Expired identity documents",
+        "documentReview": "Documents to review"
+      },
+      "kpiSection": "Key metrics",
+      "generatedAt": "Updated: {{value}}"
+    }
+  },
+  "auth": {
+    "errors": {
+      "login": "Sign-in failed."
+    },
+    "login": {
+      "title": "Sign in to Fleetlery",
+      "description": "Use your internal account to continue."
+    },
+    "fields": {
+      "remember": "Keep me signed in",
+      "email": "Email address",
+      "password": "Password"
+    },
+    "actions": {
+      "login": "Sign in",
+      "logout": "Sign out"
+    }
+  },
+  "drivers": {
+    "filters": {
+      "search": "Search name, email, or phone",
+      "allCities": "All cities",
+      "allTransport": "All vehicles",
+      "allStatuses": "All statuses"
+    },
+    "transport": {
+      "bicycle": "Bicycle",
+      "car": "Car"
+    },
+    "subtitle": "Find and manage drivers quickly.",
+    "fields": {
+      "transport": "Vehicle",
+      "phone": "Phone",
+      "socialSecurity": "Social security number",
+      "birthDate": "Date of birth",
+      "identityExpiry": "ID valid until",
+      "city": "City",
+      "fullName": "Full name",
+      "actions": "Actions",
+      "status": "Status",
+      "email": "Email"
+    },
+    "status": {
+      "active": "Active",
+      "new": "New",
+      "documents_missing": "Documents missing",
+      "rejected": "Rejected",
+      "ready_for_activation": "Ready for activation",
+      "suspended": "Paused",
+      "under_review": "Under review"
+    },
+    "title": "Drivers",
+    "pagination": {
+      "total": "{{count}} drivers",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "create": {
+      "subtitle": "Start with the essential information.",
+      "title": "Add a new driver"
+    },
+    "actions": {
+      "open": "Open",
+      "search": "Search",
+      "save": "Save changes",
+      "create": "Create driver",
+      "clear": "Clear filters",
+      "back": "Back to list",
+      "retry": "Try again",
+      "add": "Add driver"
+    },
+    "details": {
+      "saved": "Changes have been saved.",
+      "createdAt": "Created on",
+      "summary": "Summary",
+      "informationTab": "Driver information",
+      "documentsTab": "Documents",
+      "subtitle": "Driver profile and personal details",
+      "noChanges": "No changes were made."
+    },
+    "empty": {
+      "description": "Adjust the filters or add a new driver.",
+      "title": "No drivers found"
+    },
+    "form": {
+      "chooseCity": "Choose a city",
+      "basicData": "Personal details"
+    },
+    "errors": {
+      "create": "The driver could not be created.",
+      "update": "The changes could not be saved.",
+      "list": "The driver list could not be loaded.",
+      "details": "The driver profile could not be loaded."
+    }
+  },
+  "documents": {
+    "preview": {
+      "open": "Click the preview to open the file",
+      "openFile": "Open file: {{name}}",
+      "error": "The preview could not be loaded."
+    },
+    "queue": {
+      "title": "Document review",
+      "total": "{{count}} tasks",
+      "subtitle": "Review and process documents requiring attention.",
+      "openItems": "All open tasks",
+      "empty": "No open document tasks.",
+      "allDrivers": "All drivers"
+    },
+    "status": {
+      "missing": "Missing",
+      "present": "Uploaded",
+      "needs_review": "Needs review",
+      "rejected": "Rejected",
+      "accepted": "Accepted"
+    },
+    "part": {
+      "default": "Document",
+      "back": "Back",
+      "front": "Front"
+    },
+    "fields": {
+      "driver": "Driver",
+      "actions": "Actions",
+      "expiresAt": "Valid until",
+      "status": "Status",
+      "document": "Document"
+    },
+    "errors": {
+      "review": "The review could not be saved.",
+      "queue": "The review queue could not be loaded.",
+      "list": "Documents could not be loaded.",
+      "download": "The document is currently unavailable.",
+      "upload": "The file could not be uploaded."
+    },
+    "driver": {
+      "subtitle": "See missing documents and upload files securely.",
+      "title": "Documents"
+    },
+    "review": {
+      "reason": "Enter rejection reason"
+    },
+    "actions": {
+      "upload": "Upload",
+      "retry": "Try again",
+      "reject": "Reject",
+      "download": "Download",
+      "chooseFile": "Choose file",
+      "confirmReject": "Reject",
+      "accept": "Accept",
+      "openDriver": "Open driver",
+      "refresh": "Refresh",
+      "preview": "Preview",
+      "closePreview": "Close preview"
+    }
+  },
+  "settlements": {
+    "title": "Settlements",
+    "subtitle": "Prepare and track driver payouts clearly.",
+    "filters": {
+      "allDrivers": "All drivers",
+      "allStatuses": "All statuses",
+      "allPayments": "All payment statuses",
+      "from": "Period from",
+      "to": "Period to"
+    },
+    "status": {
+      "draft": "Draft",
+      "approved": "Approved",
+      "voided": "Voided"
+    },
+    "paymentStatus": {
+      "unpaid": "Unpaid",
+      "partially_paid": "Partially paid",
+      "paid": "Paid"
+    },
+    "fields": {
+      "driver_id": "Driver",
+      "period": "Settlement period",
+      "period_start": "Period from",
+      "period_end": "Period to",
+      "order_count": "Orders",
+      "kilometers": "Kilometres",
+      "order_revenue": "Order revenue",
+      "kilometer_revenue": "Kilometre revenue",
+      "bonuses": "Bonuses",
+      "gross_revenue": "Gross revenue",
+      "driver_share": "Driver share",
+      "company_share": "Company share",
+      "contract_cost": "Contract cost",
+      "deductions": "Deductions",
+      "final_due": "Final payout",
+      "notes": "Internal notes",
+      "status": "Status",
+      "payment": "Payment",
+      "actions": "Actions"
+    },
+    "actions": {
+      "create": "Create settlement",
+      "open": "Open",
+      "clear": "Clear filters",
+      "retry": "Try again",
+      "back": "Back to list",
+      "save": "Save draft",
+      "saving": "Saving…",
+      "approve": "Approve settlement",
+      "recordPayment": "Record payment",
+      "reverse": "Reverse",
+      "confirmReverse": "Reverse payment",
+      "cancel": "Cancel",
+      "void": "Void settlement"
+    },
+    "form": {
+      "period": "Period and activity",
+      "amounts": "Amounts in EUR",
+      "chooseDriver": "Select driver"
+    },
+    "create": {
+      "title": "New settlement",
+      "subtitle": "Review amounts and save them as a draft first."
+    },
+    "details": {
+      "subtitle": "Settlement, approval and payment history",
+      "approveHint": "Once approved, the settlement can no longer be edited."
+    },
+    "summary": {
+      "status": "Settlement status",
+      "payment": "Payment status",
+      "final_due": "Payout",
+      "paid": "Paid",
+      "remaining": "Remaining"
+    },
+    "paymentForm": {
+      "title": "Record payment",
+      "amount": "Amount",
+      "date": "Payment date",
+      "method": "Payment method",
+      "reference": "Reference"
+    },
+    "methods": {
+      "bank_transfer": "Bank transfer",
+      "cash": "Cash",
+      "other": "Other"
+    },
+    "payments": {
+      "title": "Payment history",
+      "empty": "No payments have been recorded."
+    },
+    "reverse": {
+      "title": "Reverse payment",
+      "reason": "Reason for reversal"
+    },
+    "void": {
+      "title": "Void settlement",
+      "reason": "Reason for voiding"
+    },
+    "messages": {
+      "saved": "Draft saved.",
+      "approved": "Settlement approved.",
+      "voided": "Settlement voided.",
+      "paid": "Payment recorded.",
+      "reversed": "Payment reversed."
+    },
+    "errors": {
+      "list": "Settlements could not be loaded.",
+      "details": "Settlement could not be loaded.",
+      "create": "Settlement could not be created.",
+      "update": "Draft could not be saved.",
+      "approve": "Settlement could not be approved.",
+      "void": "Settlement could not be voided.",
+      "payment": "Payment could not be recorded.",
+      "reverse": "Payment could not be reversed."
+    },
+    "empty": "No settlements found.",
+    "pagination": {
+      "total": "{{count}} settlements",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "fleetlerySidebar": {
+    "adminArea": "Administration",
+    "driverArea": "My area",
+    "overview": "Overview",
+    "operations": "Drivers & documents",
+    "finance": "Finance",
+    "management": "Management"
+  },
+  "driverPortal": {
+    "nav": {
+      "dashboard": "Overview",
+      "profile": "My profile",
+      "documents": "My documents",
+      "payouts": "My payouts"
+    },
+    "adminNav": {
+      "dashboard": "Overview",
+      "drivers": "Drivers",
+      "documents": "Documents",
+      "settlements": "Settlements",
+      "requests": "Change requests",
+      "invitations": "Invitations"
+    },
+    "actions": {
+      "retry": "Try again",
+      "refresh": "Refresh"
+    },
+    "dashboard": {
+      "title": "My area",
+      "subtitle": "Your current status at a glance.",
+      "attention": "Documents need your attention",
+      "attentionHint": "Please check missing or rejected documents.",
+      "documentsAccepted": "Accepted documents",
+      "documentsOpen": "Missing or rejected documents",
+      "remaining": "Remaining payout"
+    },
+    "profile": {
+      "title": "My profile",
+      "subtitle": "Changes take effect only after approval.",
+      "noChanges": "Please change at least one field.",
+      "requestSent": "Your change request was submitted.",
+      "pendingTitle": "A request is already being reviewed",
+      "pendingHint": "You can submit another request after a decision.",
+      "submit": "Request changes",
+      "note": "Message to administration",
+      "history": "My requests",
+      "noRequests": "No change requests yet."
+    },
+    "requestStatus": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "documents": {
+      "title": "My documents",
+      "subtitle": "Upload documents and track their status."
+    },
+    "payouts": {
+      "title": "My payouts",
+      "subtitle": "Your approved payout periods.",
+      "allStatuses": "All payment statuses",
+      "from": "Period from",
+      "to": "Period to",
+      "empty": "No approved payouts yet.",
+      "detailsSubtitle": "Payout and payment history",
+      "reversal": "Reversal"
+    },
+    "invitation": {
+      "title": "Create account",
+      "subtitle": "Enter your details using your invitation link.",
+      "confirmPassword": "Confirm password",
+      "callingCode": "Country code",
+      "searchCallingCode": "Search country or code",
+      "noCallingCode": "No country code found.",
+      "internationalNetwork": "International network",
+      "phonePlaceholder": "176 12345678",
+      "invalidPhone": "Enter a valid phone number.",
+      "createAccount": "Create account",
+      "doneTitle": "Account created",
+      "doneText": "You can now sign in.",
+      "invalidTitle": "Invitation unavailable",
+      "invalidText": "The link is invalid or expired. Please contact administration."
+    },
+    "adminRequests": {
+      "requestedChanges": "Requested changes",
+      "otherField": "Other information",
+      "notProvided": "Not provided",
+      "unknownValue": "Unknown value",
+      "cityUnavailable": "City unavailable",
+      "driverUnavailable": "Driver unavailable",
+      "driverNote": "Driver's message",
+      "decisionReason": "Decision reason",
+      "openDriver": "Open driver profile",
+      "title": "Change requests",
+      "subtitle": "Review driver changes before applying them.",
+      "all": "All requests",
+      "empty": "No requests found.",
+      "reason": "Reason / note",
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "errors": {
+      "dashboard": "Overview could not be loaded.",
+      "profile": "Profile could not be loaded.",
+      "changeRequest": "Request could not be sent.",
+      "documents": "Documents could not be loaded.",
+      "upload": "File could not be uploaded.",
+      "download": "File could not be opened.",
+      "payouts": "Payouts could not be loaded.",
+      "payout": "Payout could not be loaded.",
+      "invitationAccept": "Account could not be created.",
+      "adminRequests": "Requests could not be loaded.",
+      "decision": "Decision could not be saved.",
+      "invitationCreate": "Invitation could not be created.",
+      "invitationRevoke": "Invitation could not be revoked."
+    },
+    "invitations": {
+      "title": "Driver invitations",
+      "subtitle": "Create and manage invitation links.",
+      "label": "Label",
+      "hours": "Valid for hours",
+      "notes": "Internal note",
+      "create": "Create link",
+      "copyHint": "This full link is shown only now.",
+      "copy": "Copy",
+      "all": "All invitations",
+      "withoutLabel": "Invitation without label",
+      "revoke": "Revoke",
+      "revokeReason": "Reason for revocation",
+      "confirmRevoke": "Revoke invitation"
+    },
+    "invitationStatus": {
+      "pending": "Pending",
+      "consumed": "Used",
+      "revoked": "Revoked",
+      "expired": "Expired"
+    }
+  },
+  "adminTools": {
+    "common": {
+      "cancel": "Cancel"
+    },
+    "nav": {
+      "cities": "Cities",
+      "reports": "Reports",
+      "audit": "Audit log"
+    },
+    "status": {
+      "title": "Driver status",
+      "current": "Current status",
+      "choose": "Choose new status",
+      "reason": "Reason or note",
+      "apply": "Change status",
+      "history": "Status history",
+      "errors": {
+        "change": "Status could not be changed."
+      }
+    },
+    "cities": {
+      "empty": "No cities found.",
+      "title": "Cities",
+      "subtitle": "Manage operating locations available to drivers.",
+      "newName": "New city",
+      "editName": "City name",
+      "add": "Add",
+      "save": "Save",
+      "name": "City",
+      "drivers": "Drivers",
+      "status": "Status",
+      "actions": "Actions",
+      "active": "Active",
+      "inactive": "Inactive",
+      "edit": "Edit",
+      "disable": "Disable",
+      "enable": "Enable",
+      "errors": {
+        "save": "City could not be saved.",
+        "status": "Status could not be changed."
+      }
+    },
+    "audit": {
+      "title": "Audit log",
+      "subtitle": "Review security and business changes.",
+      "eventFilter": "Event, e.g. driver.status_changed",
+      "search": "Search",
+      "time": "Time",
+      "event": "Event",
+      "actor": "User",
+      "subject": "Record",
+      "request": "Request ID",
+      "empty": "No events found.",
+      "error": "Audit log could not be loaded."
+    },
+    "reports": {
+      "title": "Reports and export",
+      "subtitle": "Download filtered CSV data for Excel.",
+      "drivers": "Driver export",
+      "settlements": "Settlement export",
+      "download": "Download CSV",
+      "error": "Export could not be created."
+    }
+  },
+  "governance": {
+    "nav": {
+      "users": "Users",
+      "privacy": "Privacy requests",
+      "readiness": "System status"
+    },
+    "users": {
+      "title": "Users",
+      "subtitle": "Create and manage administrative access.",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "create": "Create admin",
+      "role": "Role",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Disabled",
+      "lastLogin": "Last login",
+      "actions": "Actions",
+      "disable": "Disable",
+      "enable": "Enable",
+      "delete": "Delete permanently",
+      "deleteTitle": "Permanently delete user?",
+      "deleteDescription": "The access account for {{name}} will be permanently deleted. Related driver, document, and settlement records will be retained.",
+      "deleteConfirm": "Delete permanently",
+      "deleteCancel": "Cancel",
+      "empty": "No users found.",
+      "search": "Search name or email",
+      "searchAction": "Search",
+      "created": "Admin created.",
+      "deleted": "The user account was permanently deleted.",
+      "errors": {
+        "create": "The user could not be created.",
+        "update": "The user status could not be changed.",
+        "delete": "The user account could not be deleted.",
+        "list": "Users could not be loaded."
+      }
+    },
+    "readiness": {
+      "title": "Production readiness",
+      "subtitle": "Technical checks required before production launch.",
+      "ready": "The system is ready for production",
+      "notReady": "Action is required before launch",
+      "hint": "Resolve failed checks and refresh the status.",
+      "error": "The system status could not be loaded.",
+      "checks": {
+        "environment": "Production environment",
+        "debug_disabled": "Debug mode disabled",
+        "application_key": "Application key",
+        "https_app_url": "Secure API URL",
+        "https_frontend_url": "Secure frontend URL",
+        "secure_session_cookie": "Secure session cookie",
+        "encrypted_session": "Encrypted session",
+        "mysql_database": "MySQL database",
+        "durable_queue": "Durable queue",
+        "durable_cache": "Durable cache",
+        "document_scanner": "Document scanner",
+        "privacy_policy": "Approved privacy policy",
+        "retention_periods": "Data retention periods"
+      }
+    },
+    "privacy": {
+      "title": "Privacy requests",
+      "subtitle": "Track data-subject requests and their deadlines.",
+      "createTitle": "Register a request",
+      "driver": "Driver",
+      "type": "Request type",
+      "status": "Status",
+      "receivedAt": "Received on",
+      "dueAt": "Due date",
+      "source": "Source",
+      "notes": "Internal notes",
+      "create": "Register request",
+      "actions": "Actions",
+      "open": "Manage",
+      "all": "All",
+      "deadline": "Deadline",
+      "overdue": "Overdue only",
+      "empty": "No privacy requests found.",
+      "workflow": "Process request",
+      "nextStatus": "Next status",
+      "chooseStatus": "Choose a status",
+      "reason": "Decision reason",
+      "apply": "Apply",
+      "holdReason": "Legal hold reason",
+      "addHold": "Add legal hold",
+      "removeHold": "Remove legal hold",
+      "reference": "Completion reference",
+      "completionNotes": "Completion notes",
+      "complete": "Mark completed",
+      "deletionPolicy": "Deletion cannot be completed until the retention and erasure policy is approved.",
+      "types": {
+        "access": "Access",
+        "correction": "Correction",
+        "deletion": "Deletion",
+        "restriction": "Restriction"
+      },
+      "statuses": {
+        "open": "Open",
+        "under_review": "Under review",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "sources": {
+        "email": "Email",
+        "phone": "Phone",
+        "letter": "Letter",
+        "in_person": "In person",
+        "other": "Other"
+      },
+      "records": {
+        "documents": "Documents",
+        "document_versions": "Document versions",
+        "settlements": "Settlements",
+        "payments": "Payments"
+      },
+      "searchDriver": "Search driver by name, phone, or email",
+      "searchAction": "Find driver",
+      "created": "Request registered.",
+      "updated": "Request updated.",
+      "errors": {
+        "create": "The request could not be registered.",
+        "update": "The request could not be updated.",
+        "list": "Requests could not be loaded.",
+        "drivers": "Drivers could not be loaded.",
+        "details": "Request details could not be loaded."
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.eano-form-builder-container input, 
+.eano-form-builder-container select, 
+.eano-form-builder-container button, 
+.eano-form-builder-container textarea {
+    background-color: var(--background-page) !important;
+}

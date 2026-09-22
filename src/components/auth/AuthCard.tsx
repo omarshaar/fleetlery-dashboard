@@ -1,0 +1,3 @@
+import type { ReactNode } from "react"
+import { Logo } from "@/components"
+export function AuthCard({ title, description, children }: { title: string; description: string; children: ReactNode }) { return <main className="min-h-screen bg-background-page flex items-center justify-center p-4"><section className="w-full max-w-md rounded-xl border border-border bg-card p-6 shadow-sm"><div className="mb-6"><Logo /><h1 className="mt-6 text-2xl font-bold text-foreground">{title}</h1><p className="mt-1 text-sm text-muted-foreground">{description}</p></div>{children}</section></main> }

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "usr_0001",
+    "fullName": "Ahmed Al Mansour",
+    "username": "ahmed.mansour",
+    "email": "ahmed.mansour@example.com",
+    "phone": "+971-50-123-4567",
+    "avatarUrl": "https://i.pravatar.cc/150?img=12",
+    "role": "admin",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "ar",
+    "timezone": "Asia/Dubai",
+    "createdAt": "2024-03-18T10:22:11.000Z",
+    "lastLoginAt": "2026-02-03T08:12:45.000Z",
+    "organization": {
+      "id": "org_01",
+      "name": "Eano Platform"
+    },
+    "jobTitle": "Platform Administrator",
+    "address": {
+      "country": "AE",
+      "city": "Dubai"
+    }
+  },
+  {
+    "id": "usr_0002",
+    "fullName": "Sara Khalid",
+    "username": "sara.khalid",
+    "email": "sara.khalid@example.com",
+    "phone": "+966-55-246-8101",
+    "avatarUrl": "https://i.pravatar.cc/150?img=47",
+    "role": "manager",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Asia/Riyadh",
+    "createdAt": "2024-05-02T14:05:32.000Z",
+    "lastLoginAt": "2026-02-04T11:45:10.000Z",
+    "organization": {
+      "id": "org_01",
+      "name": "Eano Platform"
+    },
+    "jobTitle": "Operations Manager",
+    "address": {
+      "country": "SA",
+      "city": "Riyadh"
+    }
+  },
+  {
+    "id": "usr_0003",
+    "fullName": "Omar Nasser",
+    "username": "omar.nasser",
+    "email": "omar.nasser@example.com",
+    "phone": "+20-10-5555-0123",
+    "avatarUrl": "https://i.pravatar.cc/150?img=33",
+    "role": "support",
+    "status": "active",
+    "verified": false,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Africa/Cairo",
+    "createdAt": "2024-06-21T09:44:18.000Z",
+    "lastLoginAt": "2026-01-28T17:21:02.000Z",
+    "organization": {
+      "id": "org_02",
+      "name": "Eano Partners"
+    },
+    "jobTitle": "Customer Support",
+    "address": {
+      "country": "EG",
+      "city": "Cairo"
+    }
+  },
+  {
+    "id": "usr_0004",
+    "fullName": "Lina Haddad",
+    "username": "lina.haddad",
+    "email": "lina.haddad@example.com",
+    "phone": "+962-79-123-9876",
+    "avatarUrl": "https://i.pravatar.cc/150?img=5",
+    "role": "editor",
+    "status": "inactive",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Asia/Amman",
+    "createdAt": "2024-02-10T07:30:00.000Z",
+    "lastLoginAt": "2025-12-22T20:10:33.000Z",
+    "organization": {
+      "id": "org_03",
+      "name": "Eano Studio"
+    },
+    "jobTitle": "Content Editor",
+    "address": {
+      "country": "JO",
+      "city": "Amman"
+    }
+  },
+  {
+    "id": "usr_0005",
+    "fullName": "Yousef Ibrahim",
+    "username": "yousef.ibrahim",
+    "email": "yousef.ibrahim@example.com",
+    "phone": "+965-55-111-222",
+    "avatarUrl": "https://i.pravatar.cc/150?img=18",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "Asia/Kuwait",
+    "createdAt": "2024-07-09T12:19:43.000Z",
+    "lastLoginAt": "2026-02-05T06:55:00.000Z",
+    "organization": {
+      "id": "org_02",
+      "name": "Eano Partners"
+    },
+    "jobTitle": "Analyst",
+    "address": {
+      "country": "KW",
+      "city": "Kuwait City"
+    }
+  },
+  {
+    "id": "usr_0006",
+    "fullName": "Maya Schmidt",
+    "username": "maya.schmidt",
+    "email": "maya.schmidt@example.com",
+    "phone": "+49-151-23456789",
+    "avatarUrl": "https://i.pravatar.cc/150?img=28",
+    "role": "manager",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "de",
+    "timezone": "Europe/Berlin",
+    "createdAt": "2024-01-14T16:03:05.000Z",
+    "lastLoginAt": "2026-02-01T09:18:12.000Z",
+    "organization": {
+      "id": "org_04",
+      "name": "Eano EU"
+    },
+    "jobTitle": "Regional Manager",
+    "address": {
+      "country": "DE",
+      "city": "Berlin"
+    }
+  },
+  {
+    "id": "usr_0007",
+    "fullName": "Jonas Weber",
+    "username": "jonas.weber",
+    "email": "jonas.weber@example.com",
+    "phone": "+49-160-98765432",
+    "avatarUrl": "https://i.pravatar.cc/150?img=9",
+    "role": "developer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "de",
+    "timezone": "Europe/Berlin",
+    "createdAt": "2024-08-03T08:40:21.000Z",
+    "lastLoginAt": "2026-02-05T12:01:44.000Z",
+    "organization": {
+      "id": "org_04",
+      "name": "Eano EU"
+    },
+    "jobTitle": "Frontend Developer",
+    "address": {
+      "country": "DE",
+      "city": "Hamburg"
+    }
+  },
+  {
+    "id": "usr_0008",
+    "fullName": "Emily Carter",
+    "username": "emily.carter",
+    "email": "emily.carter@example.com",
+    "phone": "+1-415-555-0199",
+    "avatarUrl": "https://i.pravatar.cc/150?img=44",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "America/Los_Angeles",
+    "createdAt": "2024-09-12T18:22:09.000Z",
+    "lastLoginAt": "2026-02-02T21:22:00.000Z",
+    "organization": {
+      "id": "org_05",
+      "name": "Eano US"
+    },
+    "jobTitle": "Business User",
+    "address": {
+      "country": "US",
+      "city": "San Francisco"
+    }
+  },
+  {
+    "id": "usr_0009",
+    "fullName": "Hassan Farouk",
+    "username": "hassan.farouk",
+    "email": "hassan.farouk@example.com",
+    "phone": "+212-6-1234-5678",
+    "avatarUrl": "https://i.pravatar.cc/150?img=22",
+    "role": "support",
+    "status": "active",
+    "verified": false,
+    "twoFactorEnabled": false,
+    "locale": "fr",
+    "timezone": "Africa/Casablanca",
+    "createdAt": "2024-04-26T13:11:52.000Z",
+    "lastLoginAt": "2026-01-11T10:05:09.000Z",
+    "organization": {
+      "id": "org_06",
+      "name": "Eano MENA"
+    },
+    "jobTitle": "Support Agent",
+    "address": {
+      "country": "MA",
+      "city": "Casablanca"
+    }
+  },
+  {
+    "id": "usr_0010",
+    "fullName": "Noor Alqahtani",
+    "username": "noor.alqahtani",
+    "email": "noor.alqahtani@example.com",
+    "phone": "+966-56-789-0012",
+    "avatarUrl": "https://i.pravatar.cc/150?img=52",
+    "role": "viewer",
+    "status": "pending",
+    "verified": false,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Asia/Riyadh",
+    "createdAt": "2025-01-09T10:10:10.000Z",
+    "lastLoginAt": null,
+    "organization": {
+      "id": "org_01",
+      "name": "Eano Platform"
+    },
+    "jobTitle": "New User",
+    "address": {
+      "country": "SA",
+      "city": "Jeddah"
+    }
+  },
+  {
+    "id": "usr_0011",
+    "fullName": "Khaled Salem",
+    "username": "khaled.salem",
+    "email": "khaled.salem@example.com",
+    "phone": "+971-55-333-4444",
+    "avatarUrl": "https://i.pravatar.cc/150?img=14",
+    "role": "auditor",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "en",
+    "timezone": "Asia/Dubai",
+    "createdAt": "2024-10-05T05:26:00.000Z",
+    "lastLoginAt": "2026-02-04T04:00:00.000Z",
+    "organization": {
+      "id": "org_01",
+      "name": "Eano Platform"
+    },
+    "jobTitle": "Compliance Auditor",
+    "address": {
+      "country": "AE",
+      "city": "Abu Dhabi"
+    }
+  },
+  {
+    "id": "usr_0012",
+    "fullName": "Fatima Zahra",
+    "username": "fatima.zahra",
+    "email": "fatima.zahra@example.com",
+    "phone": "+213-7-1234-5678",
+    "avatarUrl": "https://i.pravatar.cc/150?img=49",
+    "role": "editor",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Africa/Algiers",
+    "createdAt": "2024-11-19T19:12:33.000Z",
+    "lastLoginAt": "2026-01-30T12:34:56.000Z",
+    "organization": {
+      "id": "org_06",
+      "name": "Eano MENA"
+    },
+    "jobTitle": "Content Specialist",
+    "address": {
+      "country": "DZ",
+      "city": "Algiers"
+    }
+  },
+  {
+    "id": "usr_0013",
+    "fullName": "Adrian Müller",
+    "username": "adrian.mueller",
+    "email": "adrian.mueller@example.com",
+    "phone": "+41-79-555-8888",
+    "avatarUrl": "https://i.pravatar.cc/150?img=11",
+    "role": "developer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "de",
+    "timezone": "Europe/Zurich",
+    "createdAt": "2024-12-01T10:00:00.000Z",
+    "lastLoginAt": "2026-02-05T09:30:00.000Z",
+    "organization": {
+      "id": "org_07",
+      "name": "Eano CH"
+    },
+    "jobTitle": "Full Stack Developer",
+    "address": {
+      "country": "CH",
+      "city": "Zurich"
+    }
+  },
+  {
+    "id": "usr_0014",
+    "fullName": "Huda Al Shaikh",
+    "username": "huda.shaikh",
+    "email": "huda.shaikh@example.com",
+    "phone": "+973-33-222-111",
+    "avatarUrl": "https://i.pravatar.cc/150?img=41",
+    "role": "manager",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Asia/Bahrain",
+    "createdAt": "2024-03-30T15:17:59.000Z",
+    "lastLoginAt": "2026-02-01T13:13:13.000Z",
+    "organization": {
+      "id": "org_06",
+      "name": "Eano MENA"
+    },
+    "jobTitle": "Team Lead",
+    "address": {
+      "country": "BH",
+      "city": "Manama"
+    }
+  },
+  {
+    "id": "usr_0015",
+    "fullName": "Bilal Hussain",
+    "username": "bilal.hussain",
+    "email": "bilal.hussain@example.com",
+    "phone": "+92-300-1234567",
+    "avatarUrl": "https://i.pravatar.cc/150?img=24",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "Asia/Karachi",
+    "createdAt": "2024-06-02T06:06:06.000Z",
+    "lastLoginAt": "2026-02-03T05:05:05.000Z",
+    "organization": {
+      "id": "org_08",
+      "name": "Eano APAC"
+    },
+    "jobTitle": "Partner User",
+    "address": {
+      "country": "PK",
+      "city": "Karachi"
+    }
+  },
+  {
+    "id": "usr_0016",
+    "fullName": "Aisha Rahman",
+    "username": "aisha.rahman",
+    "email": "aisha.rahman@example.com",
+    "phone": "+880-17-1234-5678",
+    "avatarUrl": "https://i.pravatar.cc/150?img=53",
+    "role": "support",
+    "status": "inactive",
+    "verified": false,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "Asia/Dhaka",
+    "createdAt": "2024-02-22T02:22:22.000Z",
+    "lastLoginAt": "2025-10-01T12:00:00.000Z",
+    "organization": {
+      "id": "org_08",
+      "name": "Eano APAC"
+    },
+    "jobTitle": "Support Trainee",
+    "address": {
+      "country": "BD",
+      "city": "Dhaka"
+    }
+  },
+  {
+    "id": "usr_0017",
+    "fullName": "Marco Rossi",
+    "username": "marco.rossi",
+    "email": "marco.rossi@example.com",
+    "phone": "+39-347-555-0101",
+    "avatarUrl": "https://i.pravatar.cc/150?img=19",
+    "role": "editor",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "it",
+    "timezone": "Europe/Rome",
+    "createdAt": "2024-07-15T09:09:09.000Z",
+    "lastLoginAt": "2026-01-29T08:08:08.000Z",
+    "organization": {
+      "id": "org_04",
+      "name": "Eano EU"
+    },
+    "jobTitle": "Marketing Editor",
+    "address": {
+      "country": "IT",
+      "city": "Milan"
+    }
+  },
+  {
+    "id": "usr_0018",
+    "fullName": "Sophie Dubois",
+    "username": "sophie.dubois",
+    "email": "sophie.dubois@example.com",
+    "phone": "+33-6-12-34-56-78",
+    "avatarUrl": "https://i.pravatar.cc/150?img=31",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "fr",
+    "timezone": "Europe/Paris",
+    "createdAt": "2024-09-01T01:23:45.000Z",
+    "lastLoginAt": "2026-02-03T18:00:00.000Z",
+    "organization": {
+      "id": "org_04",
+      "name": "Eano EU"
+    },
+    "jobTitle": "Stakeholder",
+    "address": {
+      "country": "FR",
+      "city": "Paris"
+    }
+  },
+  {
+    "id": "usr_0019",
+    "fullName": "Noura El Said",
+    "username": "noura.elsaid",
+    "email": "noura.elsaid@example.com",
+    "phone": "+20-12-2345-6789",
+    "avatarUrl": "https://i.pravatar.cc/150?img=50",
+    "role": "manager",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "ar",
+    "timezone": "Africa/Cairo",
+    "createdAt": "2024-10-20T20:20:20.000Z",
+    "lastLoginAt": "2026-02-05T07:20:00.000Z",
+    "organization": {
+      "id": "org_02",
+      "name": "Eano Partners"
+    },
+    "jobTitle": "Account Manager",
+    "address": {
+      "country": "EG",
+      "city": "Alexandria"
+    }
+  },
+  {
+    "id": "usr_0020",
+    "fullName": "Daniel Nguyen",
+    "username": "daniel.nguyen",
+    "email": "daniel.nguyen@example.com",
+    "phone": "+84-90-123-4567",
+    "avatarUrl": "https://i.pravatar.cc/150?img=7",
+    "role": "developer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "createdAt": "2024-11-07T07:07:07.000Z",
+    "lastLoginAt": "2026-02-02T04:40:00.000Z",
+    "organization": {
+      "id": "org_08",
+      "name": "Eano APAC"
+    },
+    "jobTitle": "Backend Developer",
+    "address": {
+      "country": "VN",
+      "city": "Ho Chi Minh City"
+    }
+  },
+  {
+    "id": "usr_0021",
+    "fullName": "Priya Sharma",
+    "username": "priya.sharma",
+    "email": "priya.sharma@example.com",
+    "phone": "+91-98765-43210",
+    "avatarUrl": "https://i.pravatar.cc/150?img=55",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "Asia/Kolkata",
+    "createdAt": "2024-01-25T12:12:12.000Z",
+    "lastLoginAt": "2026-01-26T12:00:00.000Z",
+    "organization": {
+      "id": "org_08",
+      "name": "Eano APAC"
+    },
+    "jobTitle": "Business Analyst",
+    "address": {
+      "country": "IN",
+      "city": "Bengaluru"
+    }
+  },
+  {
+    "id": "usr_0022",
+    "fullName": "Lucas Silva",
+    "username": "lucas.silva",
+    "email": "lucas.silva@example.com",
+    "phone": "+55-11-99999-1111",
+    "avatarUrl": "https://i.pravatar.cc/150?img=36",
+    "role": "support",
+    "status": "active",
+    "verified": false,
+    "twoFactorEnabled": false,
+    "locale": "pt-BR",
+    "timezone": "America/Sao_Paulo",
+    "createdAt": "2024-05-12T22:10:00.000Z",
+    "lastLoginAt": "2026-01-31T15:45:00.000Z",
+    "organization": {
+      "id": "org_09",
+      "name": "Eano LATAM"
+    },
+    "jobTitle": "Support Specialist",
+    "address": {
+      "country": "BR",
+      "city": "São Paulo"
+    }
+  },
+  {
+    "id": "usr_0023",
+    "fullName": "Ava Johnson",
+    "username": "ava.johnson",
+    "email": "ava.johnson@example.com",
+    "phone": "+1-212-555-0144",
+    "avatarUrl": "https://i.pravatar.cc/150?img=46",
+    "role": "editor",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "en",
+    "timezone": "America/New_York",
+    "createdAt": "2024-03-05T05:05:05.000Z",
+    "lastLoginAt": "2026-02-05T02:10:00.000Z",
+    "organization": {
+      "id": "org_05",
+      "name": "Eano US"
+    },
+    "jobTitle": "Content Publisher",
+    "address": {
+      "country": "US",
+      "city": "New York"
+    }
+  },
+  {
+    "id": "usr_0024",
+    "fullName": "Michael Brown",
+    "username": "michael.brown",
+    "email": "michael.brown@example.com",
+    "phone": "+1-312-555-0108",
+    "avatarUrl": "https://i.pravatar.cc/150?img=1",
+    "role": "auditor",
+    "status": "inactive",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "America/Chicago",
+    "createdAt": "2024-02-01T00:00:01.000Z",
+    "lastLoginAt": "2025-09-15T10:00:00.000Z",
+    "organization": {
+      "id": "org_05",
+      "name": "Eano US"
+    },
+    "jobTitle": "Security Auditor",
+    "address": {
+      "country": "US",
+      "city": "Chicago"
+    }
+  },
+  {
+    "id": "usr_0025",
+    "fullName": "Yara Al Habib",
+    "username": "yara.habib",
+    "email": "yara.habib@example.com",
+    "phone": "+961-3-111-222",
+    "avatarUrl": "https://i.pravatar.cc/150?img=58",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Asia/Beirut",
+    "createdAt": "2024-06-12T12:34:00.000Z",
+    "lastLoginAt": "2026-02-04T16:40:00.000Z",
+    "organization": {
+      "id": "org_06",
+      "name": "Eano MENA"
+    },
+    "jobTitle": "Client User",
+    "address": {
+      "country": "LB",
+      "city": "Beirut"
+    }
+  },
+  {
+    "id": "usr_0026",
+    "fullName": "Tariq Al Harbi",
+    "username": "tariq.harbi",
+    "email": "tariq.harbi@example.com",
+    "phone": "+966-50-900-1234",
+    "avatarUrl": "https://i.pravatar.cc/150?img=16",
+    "role": "developer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "ar",
+    "timezone": "Asia/Riyadh",
+    "createdAt": "2024-08-20T11:11:11.000Z",
+    "lastLoginAt": "2026-02-05T11:11:11.000Z",
+    "organization": {
+      "id": "org_01",
+      "name": "Eano Platform"
+    },
+    "jobTitle": "Mobile Developer",
+    "address": {
+      "country": "SA",
+      "city": "Dammam"
+    }
+  },
+  {
+    "id": "usr_0027",
+    "fullName": "Hannah Lee",
+    "username": "hannah.lee",
+    "email": "hannah.lee@example.com",
+    "phone": "+82-10-1234-5678",
+    "avatarUrl": "https://i.pravatar.cc/150?img=39",
+    "role": "manager",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "en",
+    "timezone": "Asia/Seoul",
+    "createdAt": "2024-09-25T09:45:00.000Z",
+    "lastLoginAt": "2026-01-27T09:15:00.000Z",
+    "organization": {
+      "id": "org_08",
+      "name": "Eano APAC"
+    },
+    "jobTitle": "Product Manager",
+    "address": {
+      "country": "KR",
+      "city": "Seoul"
+    }
+  },
+  {
+    "id": "usr_0028",
+    "fullName": "Pedro Alvarez",
+    "username": "pedro.alvarez",
+    "email": "pedro.alvarez@example.com",
+    "phone": "+34-600-123-456",
+    "avatarUrl": "https://i.pravatar.cc/150?img=26",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "es",
+    "timezone": "Europe/Madrid",
+    "createdAt": "2024-10-10T10:10:10.000Z",
+    "lastLoginAt": "2026-02-01T19:00:00.000Z",
+    "organization": {
+      "id": "org_04",
+      "name": "Eano EU"
+    },
+    "jobTitle": "Sales User",
+    "address": {
+      "country": "ES",
+      "city": "Madrid"
+    }
+  },
+  {
+    "id": "usr_0029",
+    "fullName": "Mariam Al Ali",
+    "username": "mariam.alali",
+    "email": "mariam.alali@example.com",
+    "phone": "+971-52-999-0001",
+    "avatarUrl": "https://i.pravatar.cc/150?img=57",
+    "role": "editor",
+    "status": "pending",
+    "verified": false,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Asia/Dubai",
+    "createdAt": "2025-02-14T14:14:14.000Z",
+    "lastLoginAt": null,
+    "organization": {
+      "id": "org_01",
+      "name": "Eano Platform"
+    },
+    "jobTitle": "Pending Editor",
+    "address": {
+      "country": "AE",
+      "city": "Dubai"
+    }
+  },
+  {
+    "id": "usr_0030",
+    "fullName": "Robert Wilson",
+    "username": "robert.wilson",
+    "email": "robert.wilson@example.com",
+    "phone": "+1-617-555-0102",
+    "avatarUrl": "https://i.pravatar.cc/150?img=4",
+    "role": "support",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "en",
+    "timezone": "America/New_York",
+    "createdAt": "2024-04-04T04:44:44.000Z",
+    "lastLoginAt": "2026-02-05T20:00:00.000Z",
+    "organization": {
+      "id": "org_05",
+      "name": "Eano US"
+    },
+    "jobTitle": "Support Lead",
+    "address": {
+      "country": "US",
+      "city": "Boston"
+    }
+  },
+  {
+    "id": "usr_0031",
+    "fullName": "Kenza Benali",
+    "username": "kenza.benali",
+    "email": "kenza.benali@example.com",
+    "phone": "+216-20-123-456",
+    "avatarUrl": "https://i.pravatar.cc/150?img=60",
+    "role": "viewer",
+    "status": "inactive",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "fr",
+    "timezone": "Africa/Tunis",
+    "createdAt": "2024-05-18T18:18:18.000Z",
+    "lastLoginAt": "2025-08-10T12:30:00.000Z",
+    "organization": {
+      "id": "org_06",
+      "name": "Eano MENA"
+    },
+    "jobTitle": "Read-only User",
+    "address": {
+      "country": "TN",
+      "city": "Tunis"
+    }
+  },
+  {
+    "id": "usr_0032",
+    "fullName": "Nikolai Petrov",
+    "username": "nikolai.petrov",
+    "email": "nikolai.petrov@example.com",
+    "phone": "+7-999-123-4567",
+    "avatarUrl": "https://i.pravatar.cc/150?img=27",
+    "role": "auditor",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ru",
+    "timezone": "Europe/Moscow",
+    "createdAt": "2024-09-09T09:09:09.000Z",
+    "lastLoginAt": "2026-01-25T09:00:00.000Z",
+    "organization": {
+      "id": "org_10",
+      "name": "Eano CIS"
+    },
+    "jobTitle": "Risk Auditor",
+    "address": {
+      "country": "RU",
+      "city": "Moscow"
+    }
+  },
+  {
+    "id": "usr_0033",
+    "fullName": "Zainab Al Mutairi",
+    "username": "zainab.mutairi",
+    "email": "zainab.mutairi@example.com",
+    "phone": "+965-66-777-888",
+    "avatarUrl": "https://i.pravatar.cc/150?img=54",
+    "role": "manager",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "ar",
+    "timezone": "Asia/Kuwait",
+    "createdAt": "2024-08-08T08:08:08.000Z",
+    "lastLoginAt": "2026-02-03T13:35:00.000Z",
+    "organization": {
+      "id": "org_01",
+      "name": "Eano Platform"
+    },
+    "jobTitle": "People Manager",
+    "address": {
+      "country": "KW",
+      "city": "Kuwait City"
+    }
+  },
+  {
+    "id": "usr_0034",
+    "fullName": "Ethan Walker",
+    "username": "ethan.walker",
+    "email": "ethan.walker@example.com",
+    "phone": "+1-206-555-0133",
+    "avatarUrl": "https://i.pravatar.cc/150?img=2",
+    "role": "developer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": true,
+    "locale": "en",
+    "timezone": "America/Los_Angeles",
+    "createdAt": "2024-12-12T12:12:12.000Z",
+    "lastLoginAt": "2026-02-05T23:30:00.000Z",
+    "organization": {
+      "id": "org_05",
+      "name": "Eano US"
+    },
+    "jobTitle": "DevOps Engineer",
+    "address": {
+      "country": "US",
+      "city": "Seattle"
+    }
+  },
+  {
+    "id": "usr_0035",
+    "fullName": "Salma Badr",
+    "username": "salma.badr",
+    "email": "salma.badr@example.com",
+    "phone": "+974-55-321-654",
+    "avatarUrl": "https://i.pravatar.cc/150?img=59",
+    "role": "editor",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ar",
+    "timezone": "Asia/Qatar",
+    "createdAt": "2024-07-23T23:23:23.000Z",
+    "lastLoginAt": "2026-02-02T09:50:00.000Z",
+    "organization": {
+      "id": "org_06",
+      "name": "Eano MENA"
+    },
+    "jobTitle": "Content Reviewer",
+    "address": {
+      "country": "QA",
+      "city": "Doha"
+    }
+  },
+  {
+    "id": "usr_0036",
+    "fullName": "Yuki Tanaka",
+    "username": "yuki.tanaka",
+    "email": "yuki.tanaka@example.com",
+    "phone": "+81-70-1234-5678",
+    "avatarUrl": "https://i.pravatar.cc/150?img=25",
+    "role": "viewer",
+    "status": "active",
+    "verified": true,
+    "twoFactorEnabled": false,
+    "locale": "ja",
+    "timezone": "Asia/Tokyo",
+    "createdAt": "2024-06-30T03:00:00.000Z",
+    "lastLoginAt": "2026-01-24T03:30:00.000Z",
+    "organization": {
+      "id": "org_08",
+      "name": "Eano APAC"
+    },
+    "jobTitle": "Viewer",
+    "address": {
+      "country": "JP",
+      "city": "Tokyo"
+    }
+  }
+]

@@ -1,0 +1,751 @@
+{
+  "common": {
+    "search": "بحث سريع...",
+    "yes": "نعم",
+    "no": "لا",
+    "enabled": "مفعّل",
+    "disabled": "معطّل",
+    "verified": "موثّق",
+    "unverified": "غير موثّق",
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "loading": "جارٍ التحميل…"
+  },
+  "navigation": {
+    "commingSoon": "قريباً",
+    "notFound": "صفحة 404",
+    "dashboard": "الرئيسية"
+  },
+  "system": {
+    "notFound": {
+      "title": "الصفحة غير موجودة",
+      "description": "الصفحة التي تبحث عنها غير موجودة أو ربما تم نقلها.",
+      "actions": {
+        "home": "العودة للرئيسية",
+        "back": "رجوع"
+      }
+    },
+    "commingSoon": {
+      "description": "استعدوا جميعاً! نحن نعمل حالياً على شيء رائع.",
+      "email": {
+        "placeholder": "البريد الإلكتروني",
+        "cta": "أبلغني",
+        "success": "تم!"
+      }
+    },
+    "forbidden": {
+      "description": "ليست لديك صلاحية لعرض هذه الصفحة.",
+      "home": "العودة للرئيسية",
+      "title": "الوصول مرفوض"
+    }
+  },
+  "header": {
+    "sidebar": {
+      "search": "بحث..."
+    },
+    "theme": {
+      "toggle": "تبديل المظهر"
+    },
+    "notifications": {
+      "label": "الإشعارات"
+    },
+    "search": {
+      "placeholder": "بحث…"
+    },
+    "dashboard": "Fleetlery"
+  },
+  "colorPicker": {
+    "selectColor": "اختر اللون"
+  },
+  "formBuilder": {
+    "avatar": {
+      "preview": "معاينة الصورة الشخصية",
+      "removeImage": "إزالة الصورة",
+      "clickToUpload": "انقر للتحميل"
+    }
+  },
+  "ecommerce": {
+    "orders": {
+      "filters": {
+        "status": {
+          "options": {
+            "active": "نشط",
+            "processing": "قيد المعالجة",
+            "shipped": "تم الشحن",
+            "delivered": "تم التسليم",
+            "overdue": "متأخر",
+            "cancelled": "ملغي"
+          }
+        }
+      }
+    },
+    "orderCard": {
+      "moreItems": "....... و {{count}} عناصر أخرى",
+      "actions": {
+        "open": "فتح الطلب"
+      }
+    }
+  },
+  "driver": {
+    "home": {
+      "title": "منطقة الموظف",
+      "subtitle": "سيتم بناء منطقتك الشخصية في Fleetlery خطوة بخطوة."
+    }
+  },
+  "admin": {
+    "home": {
+      "welcome": "مرحباً، {{name}}.",
+      "subtitle": "منطقة إدارة Fleetlery",
+      "foundationTitle": "تم تجهيز الأساس",
+      "foundationDescription": "المصادقة والأدوار والصلاحيات والمسارات الآمنة جاهزة لبناء وحدات العمل التالية.",
+      "title": "الإدارة"
+    },
+    "dashboard": {
+      "allCities": "جميع المدن",
+      "subtitle": "الحالة التشغيلية الحالية لـ Fleetlery",
+      "cityFilter": "تصفية حسب المدينة",
+      "cities": {
+        "empty": "لا توجد بيانات مدن لهذا الاختيار.",
+        "title": "السائقون حسب المدينة"
+      },
+      "retry": "إعادة المحاولة",
+      "title": "لوحة الإدارة",
+      "error": "تعذر تحميل بيانات لوحة الإدارة.",
+      "kpi": {
+        "review": "قيد المراجعة",
+        "missingDocuments": "المستندات الناقصة",
+        "total": "إجمالي السائقين",
+        "openSettlements": "الدفعات المفتوحة",
+        "new": "السائقون الجدد",
+        "active": "السائقون المفعّلون"
+      },
+      "refresh": "تحديث",
+      "attention": {
+        "identityExpiring": "هويات تنتهي خلال 30 يوماً",
+        "title": "تحتاج إلى تدخل",
+        "rejectedDocuments": "مستندات مرفوضة",
+        "privacyOverdue": "طلبات خصوصية متأخرة",
+        "identityExpired": "هويات منتهية",
+        "documentReview": "مستندات تحتاج مراجعة"
+      },
+      "kpiSection": "المؤشرات الأساسية",
+      "generatedAt": "آخر تحديث: {{value}}"
+    }
+  },
+  "auth": {
+    "errors": {
+      "login": "تعذر تسجيل الدخول."
+    },
+    "login": {
+      "title": "تسجيل الدخول إلى Fleetlery",
+      "description": "استخدم حسابك الداخلي للمتابعة."
+    },
+    "fields": {
+      "remember": "البقاء مسجلاً",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور"
+    },
+    "actions": {
+      "login": "تسجيل الدخول",
+      "logout": "تسجيل الخروج"
+    }
+  },
+  "drivers": {
+    "filters": {
+      "search": "ابحث بالاسم أو البريد أو الهاتف",
+      "allCities": "جميع المدن",
+      "allTransport": "جميع وسائل النقل",
+      "allStatuses": "جميع الحالات"
+    },
+    "transport": {
+      "bicycle": "دراجة",
+      "car": "سيارة"
+    },
+    "subtitle": "العثور على السائقين وإدارتهم بسهولة.",
+    "fields": {
+      "transport": "وسيلة النقل",
+      "phone": "رقم الهاتف",
+      "socialSecurity": "الرقم التقاعدي",
+      "birthDate": "تاريخ الميلاد",
+      "identityExpiry": "صلاحية الهوية حتى",
+      "city": "المدينة",
+      "fullName": "الاسم الكامل",
+      "actions": "الإجراءات",
+      "status": "الحالة",
+      "email": "البريد الإلكتروني"
+    },
+    "status": {
+      "active": "مفعّل",
+      "new": "جديد",
+      "documents_missing": "أوراق ناقصة",
+      "rejected": "مرفوض",
+      "ready_for_activation": "جاهز للتفعيل",
+      "suspended": "متوقف مؤقتًا",
+      "under_review": "قيد المراجعة"
+    },
+    "title": "السائقون",
+    "pagination": {
+      "total": "{{count}} سائق",
+      "previous": "السابق",
+      "next": "التالي"
+    },
+    "create": {
+      "subtitle": "أدخل المعلومات الأساسية أولًا.",
+      "title": "إضافة سائق جديد"
+    },
+    "actions": {
+      "open": "فتح",
+      "search": "بحث",
+      "save": "حفظ التغييرات",
+      "create": "إنشاء السائق",
+      "clear": "إلغاء الفلاتر",
+      "back": "العودة للقائمة",
+      "retry": "إعادة المحاولة",
+      "add": "إضافة سائق"
+    },
+    "details": {
+      "saved": "تم حفظ التغييرات.",
+      "createdAt": "تاريخ الإنشاء",
+      "summary": "ملخص",
+      "informationTab": "معلومات السائق",
+      "documentsTab": "ملفات السائق",
+      "subtitle": "ملف السائق وبياناته الشخصية",
+      "noChanges": "لا توجد تغييرات للحفظ."
+    },
+    "empty": {
+      "description": "غيّر الفلاتر أو أضف سائقًا جديدًا.",
+      "title": "لا يوجد سائقون"
+    },
+    "form": {
+      "chooseCity": "اختر المدينة",
+      "basicData": "البيانات الشخصية"
+    },
+    "errors": {
+      "create": "تعذر إنشاء السائق.",
+      "update": "تعذر حفظ التغييرات.",
+      "list": "تعذر تحميل قائمة السائقين.",
+      "details": "تعذر تحميل ملف السائق."
+    }
+  },
+  "documents": {
+    "preview": {
+      "open": "انقر على المعاينة لفتح الملف",
+      "openFile": "فتح الملف: {{name}}",
+      "error": "تعذّر تحميل معاينة الملف."
+    },
+    "queue": {
+      "title": "مراجعة المستندات",
+      "total": "{{count}} مهمة",
+      "subtitle": "مراجعة المستندات التي تحتاج إلى تدخل.",
+      "openItems": "جميع المهام المفتوحة",
+      "empty": "لا توجد مستندات تحتاج إلى تدخل.",
+      "allDrivers": "كل السائقين"
+    },
+    "status": {
+      "missing": "ناقص",
+      "present": "موجود",
+      "needs_review": "يحتاج مراجعة",
+      "rejected": "مرفوض",
+      "accepted": "مقبول"
+    },
+    "part": {
+      "default": "المستند",
+      "back": "الوجه الخلفي",
+      "front": "الوجه الأمامي"
+    },
+    "fields": {
+      "driver": "السائق",
+      "actions": "الإجراءات",
+      "expiresAt": "صالح حتى",
+      "status": "الحالة",
+      "document": "المستند"
+    },
+    "errors": {
+      "review": "تعذر حفظ نتيجة المراجعة.",
+      "queue": "تعذر تحميل قائمة المراجعة.",
+      "list": "تعذر تحميل المستندات.",
+      "download": "المستند غير متاح حاليًا.",
+      "upload": "تعذر رفع الملف."
+    },
+    "driver": {
+      "subtitle": "معرفة الأوراق الناقصة ورفع الملفات بأمان.",
+      "title": "المستندات"
+    },
+    "review": {
+      "reason": "اكتب سبب الرفض"
+    },
+    "actions": {
+      "upload": "رفع",
+      "retry": "إعادة المحاولة",
+      "reject": "رفض",
+      "download": "تنزيل",
+      "chooseFile": "اختيار ملف",
+      "confirmReject": "تأكيد الرفض",
+      "accept": "قبول",
+      "openDriver": "فتح السائق",
+      "refresh": "تحديث",
+      "preview": "معاينة",
+      "closePreview": "إغلاق المعاينة"
+    }
+  },
+  "settlements": {
+    "title": "الحسابات والمدفوعات",
+    "subtitle": "إعداد مستحقات السائقين ومتابعتها بوضوح.",
+    "filters": {
+      "allDrivers": "كل السائقين",
+      "allStatuses": "كل الحالات",
+      "allPayments": "كل حالات الدفع",
+      "from": "الفترة من",
+      "to": "الفترة إلى"
+    },
+    "status": {
+      "draft": "مسودة",
+      "approved": "معتمد",
+      "voided": "ملغى"
+    },
+    "paymentStatus": {
+      "unpaid": "غير مدفوع",
+      "partially_paid": "مدفوع جزئياً",
+      "paid": "مدفوع"
+    },
+    "fields": {
+      "driver_id": "السائق",
+      "period": "فترة الحساب",
+      "period_start": "الفترة من",
+      "period_end": "الفترة إلى",
+      "order_count": "عدد الطلبات",
+      "kilometers": "الكيلومترات",
+      "order_revenue": "إيراد الطلبات",
+      "kilometer_revenue": "إيراد الكيلومترات",
+      "bonuses": "الزيادات",
+      "gross_revenue": "الإيراد الإجمالي",
+      "driver_share": "حصة السائق",
+      "company_share": "حصة الشركة",
+      "contract_cost": "تكلفة العقد",
+      "deductions": "الخصومات",
+      "final_due": "المبلغ النهائي",
+      "notes": "ملاحظات داخلية",
+      "status": "الحالة",
+      "payment": "الدفع",
+      "actions": "الإجراءات"
+    },
+    "actions": {
+      "create": "إنشاء حساب",
+      "open": "فتح",
+      "clear": "مسح الفلاتر",
+      "retry": "إعادة المحاولة",
+      "back": "العودة للقائمة",
+      "save": "حفظ المسودة",
+      "saving": "جارٍ الحفظ…",
+      "approve": "اعتماد الحساب",
+      "recordPayment": "تسجيل الدفع",
+      "reverse": "عكس",
+      "confirmReverse": "عكس الدفعة",
+      "cancel": "إلغاء",
+      "void": "إلغاء الحساب"
+    },
+    "form": {
+      "period": "الفترة والعمل",
+      "amounts": "المبالغ باليورو",
+      "chooseDriver": "اختر السائق"
+    },
+    "create": {
+      "title": "حساب جديد",
+      "subtitle": "راجع المبالغ واحفظها كمسودة أولاً."
+    },
+    "details": {
+      "subtitle": "الحساب والاعتماد وسجل الدفعات",
+      "approveHint": "بعد الاعتماد لا يمكن تعديل بيانات الحساب."
+    },
+    "summary": {
+      "status": "حالة الحساب",
+      "payment": "حالة الدفع",
+      "final_due": "المستحق",
+      "paid": "المدفوع",
+      "remaining": "المتبقي"
+    },
+    "paymentForm": {
+      "title": "تسجيل دفعة",
+      "amount": "المبلغ",
+      "date": "تاريخ الدفع",
+      "method": "طريقة الدفع",
+      "reference": "المرجع"
+    },
+    "methods": {
+      "bank_transfer": "تحويل بنكي",
+      "cash": "نقداً",
+      "other": "أخرى"
+    },
+    "payments": {
+      "title": "سجل الدفعات",
+      "empty": "لم يتم تسجيل أي دفعات بعد."
+    },
+    "reverse": {
+      "title": "عكس دفعة",
+      "reason": "سبب عكس الدفعة"
+    },
+    "void": {
+      "title": "إلغاء الحساب",
+      "reason": "سبب إلغاء الحساب"
+    },
+    "messages": {
+      "saved": "تم حفظ المسودة.",
+      "approved": "تم اعتماد الحساب.",
+      "voided": "تم إلغاء الحساب.",
+      "paid": "تم تسجيل الدفعة.",
+      "reversed": "تم عكس الدفعة."
+    },
+    "errors": {
+      "list": "تعذر تحميل الحسابات.",
+      "details": "تعذر تحميل الحساب.",
+      "create": "تعذر إنشاء الحساب.",
+      "update": "تعذر حفظ المسودة.",
+      "approve": "تعذر اعتماد الحساب.",
+      "void": "تعذر إلغاء الحساب.",
+      "payment": "تعذر تسجيل الدفعة.",
+      "reverse": "تعذر عكس الدفعة."
+    },
+    "empty": "لا توجد حسابات.",
+    "pagination": {
+      "total": "{{count}} حساب",
+      "previous": "السابق",
+      "next": "التالي"
+    }
+  },
+  "fleetlerySidebar": {
+    "adminArea": "الإدارة",
+    "driverArea": "مساحتي",
+    "overview": "نظرة عامة",
+    "operations": "السائقون والمستندات",
+    "finance": "المالية",
+    "management": "الإدارة"
+  },
+  "driverPortal": {
+    "nav": {
+      "dashboard": "نظرة عامة",
+      "profile": "ملفي الشخصي",
+      "documents": "مستنداتي",
+      "payouts": "مستحقاتي"
+    },
+    "adminNav": {
+      "dashboard": "نظرة عامة",
+      "drivers": "السائقون",
+      "documents": "المستندات",
+      "settlements": "الحسابات",
+      "requests": "طلبات التعديل",
+      "invitations": "الدعوات"
+    },
+    "actions": {
+      "retry": "إعادة المحاولة",
+      "refresh": "تحديث"
+    },
+    "dashboard": {
+      "title": "مساحتي",
+      "subtitle": "حالتك الحالية باختصار.",
+      "attention": "هناك مستندات تحتاج انتباهك",
+      "attentionHint": "راجع المستندات الناقصة أو المرفوضة.",
+      "documentsAccepted": "مستندات مقبولة",
+      "documentsOpen": "مستندات ناقصة أو مرفوضة",
+      "remaining": "المبلغ المتبقي"
+    },
+    "profile": {
+      "title": "ملفي الشخصي",
+      "subtitle": "لا تُعتمد التغييرات إلا بعد موافقة الإدارة.",
+      "noChanges": "غيّر حقلاً واحداً على الأقل.",
+      "requestSent": "تم إرسال طلب التعديل.",
+      "pendingTitle": "يوجد طلب قيد المراجعة",
+      "pendingHint": "يمكنك تقديم طلب جديد بعد صدور القرار.",
+      "submit": "طلب تعديل",
+      "note": "رسالة للإدارة",
+      "history": "طلباتي",
+      "noRequests": "لا توجد طلبات تعديل بعد."
+    },
+    "requestStatus": {
+      "pending": "قيد المراجعة",
+      "approved": "موافق عليه",
+      "rejected": "مرفوض"
+    },
+    "documents": {
+      "title": "مستنداتي",
+      "subtitle": "ارفع المستندات وتابع حالتها."
+    },
+    "payouts": {
+      "title": "مستحقاتي",
+      "subtitle": "فترات الدفع المعتمدة الخاصة بك.",
+      "allStatuses": "كل حالات الدفع",
+      "from": "الفترة من",
+      "to": "الفترة إلى",
+      "empty": "لا توجد مستحقات معتمدة بعد.",
+      "detailsSubtitle": "المستحق وسجل الدفعات",
+      "reversal": "عكس دفعة"
+    },
+    "invitation": {
+      "title": "إنشاء حساب",
+      "subtitle": "أدخل بياناتك عبر رابط الدعوة.",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "callingCode": "رمز الدولة",
+      "searchCallingCode": "ابحث عن الدولة أو الرمز",
+      "noCallingCode": "لم يتم العثور على رمز.",
+      "internationalNetwork": "شبكة دولية",
+      "phonePlaceholder": "176 12345678",
+      "invalidPhone": "أدخل رقم هاتف صالحًا.",
+      "createAccount": "إنشاء حساب",
+      "doneTitle": "تم إنشاء الحساب",
+      "doneText": "يمكنك تسجيل الدخول الآن.",
+      "invalidTitle": "الدعوة غير متاحة",
+      "invalidText": "الرابط غير صالح أو انتهت صلاحيته. تواصل مع الإدارة."
+    },
+    "adminRequests": {
+      "requestedChanges": "التغييرات المطلوبة",
+      "otherField": "بيانات إضافية",
+      "notProvided": "غير محدد",
+      "unknownValue": "قيمة غير معروفة",
+      "cityUnavailable": "المدينة غير متاحة",
+      "driverUnavailable": "السائق غير متاح",
+      "driverNote": "رسالة السائق",
+      "decisionReason": "سبب القرار",
+      "openDriver": "فتح ملف السائق",
+      "title": "طلبات التعديل",
+      "subtitle": "راجع تغييرات السائق قبل اعتمادها.",
+      "all": "كل الطلبات",
+      "empty": "لا توجد طلبات.",
+      "reason": "السبب أو الملاحظة",
+      "approve": "موافقة",
+      "reject": "رفض"
+    },
+    "errors": {
+      "dashboard": "تعذر تحميل الملخص.",
+      "profile": "تعذر تحميل الملف.",
+      "changeRequest": "تعذر إرسال الطلب.",
+      "documents": "تعذر تحميل المستندات.",
+      "upload": "تعذر رفع الملف.",
+      "download": "تعذر فتح الملف.",
+      "payouts": "تعذر تحميل المستحقات.",
+      "payout": "تعذر تحميل المستحق.",
+      "invitationAccept": "تعذر إنشاء الحساب.",
+      "adminRequests": "تعذر تحميل الطلبات.",
+      "decision": "تعذر حفظ القرار.",
+      "invitationCreate": "تعذر إنشاء الدعوة.",
+      "invitationRevoke": "تعذر إلغاء الدعوة."
+    },
+    "invitations": {
+      "title": "دعوات السائقين",
+      "subtitle": "إنشاء روابط الدعوة وإدارتها.",
+      "label": "عنوان الدعوة",
+      "hours": "مدة الصلاحية بالساعات",
+      "notes": "ملاحظة داخلية",
+      "create": "إنشاء الرابط",
+      "copyHint": "يظهر الرابط الكامل الآن فقط.",
+      "copy": "نسخ",
+      "all": "كل الدعوات",
+      "withoutLabel": "دعوة بدون عنوان",
+      "revoke": "إلغاء",
+      "revokeReason": "سبب الإلغاء",
+      "confirmRevoke": "إلغاء الدعوة"
+    },
+    "invitationStatus": {
+      "pending": "صالحة",
+      "consumed": "مستخدمة",
+      "revoked": "ملغاة",
+      "expired": "منتهية"
+    }
+  },
+  "adminTools": {
+    "common": {
+      "cancel": "إلغاء"
+    },
+    "nav": {
+      "cities": "المدن",
+      "reports": "التقارير",
+      "audit": "سجل العمليات"
+    },
+    "status": {
+      "title": "حالة السائق",
+      "current": "الحالة الحالية",
+      "choose": "اختر الحالة الجديدة",
+      "reason": "السبب أو ملاحظة",
+      "apply": "تغيير الحالة",
+      "history": "سجل الحالات",
+      "errors": {
+        "change": "تعذر تغيير الحالة."
+      }
+    },
+    "cities": {
+      "empty": "لا توجد مدن.",
+      "title": "المدن",
+      "subtitle": "إدارة مناطق العمل المتاحة للسائقين.",
+      "newName": "مدينة جديدة",
+      "editName": "اسم المدينة",
+      "add": "إضافة",
+      "save": "حفظ",
+      "name": "المدينة",
+      "drivers": "السائقون",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "active": "نشطة",
+      "inactive": "غير نشطة",
+      "edit": "تعديل",
+      "disable": "تعطيل",
+      "enable": "تفعيل",
+      "errors": {
+        "save": "تعذر حفظ المدينة.",
+        "status": "تعذر تغيير الحالة."
+      }
+    },
+    "audit": {
+      "title": "سجل العمليات",
+      "subtitle": "متابعة التغييرات الأمنية والإدارية.",
+      "eventFilter": "الحدث، مثال driver.status_changed",
+      "search": "بحث",
+      "time": "الوقت",
+      "event": "الحدث",
+      "actor": "المستخدم",
+      "subject": "السجل",
+      "request": "معرف الطلب",
+      "empty": "لا توجد عمليات.",
+      "error": "تعذر تحميل سجل العمليات."
+    },
+    "reports": {
+      "title": "التقارير والتصدير",
+      "subtitle": "تنزيل البيانات المفلترة بصيغة CSV لبرنامج Excel.",
+      "drivers": "تصدير السائقين",
+      "settlements": "تصدير الحسابات",
+      "download": "تنزيل CSV",
+      "error": "تعذر إنشاء ملف التصدير."
+    }
+  },
+  "governance": {
+    "nav": {
+      "users": "المستخدمون",
+      "privacy": "طلبات الخصوصية",
+      "readiness": "حالة النظام"
+    },
+    "users": {
+      "title": "المستخدمون",
+      "subtitle": "إنشاء وإدارة صلاحيات الوصول الإدارية.",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "create": "إنشاء مدير",
+      "role": "الدور",
+      "status": "الحالة",
+      "active": "نشط",
+      "inactive": "معطل",
+      "lastLogin": "آخر دخول",
+      "actions": "الإجراءات",
+      "disable": "تعطيل",
+      "enable": "تفعيل",
+      "delete": "حذف نهائي",
+      "deleteTitle": "حذف المستخدم نهائيًا؟",
+      "deleteDescription": "سيتم حذف حساب الدخول الخاص بـ {{name}} نهائيًا. ستبقى بيانات السائق والمستندات والحسابات المرتبطة محفوظة.",
+      "deleteConfirm": "حذف نهائي",
+      "deleteCancel": "إلغاء",
+      "empty": "لا يوجد مستخدمون.",
+      "search": "ابحث بالاسم أو البريد الإلكتروني",
+      "searchAction": "بحث",
+      "created": "تم إنشاء حساب المدير.",
+      "deleted": "تم حذف حساب المستخدم نهائيًا.",
+      "errors": {
+        "create": "تعذر إنشاء المستخدم.",
+        "update": "تعذر تغيير حالة المستخدم.",
+        "delete": "تعذر حذف حساب المستخدم.",
+        "list": "تعذر تحميل المستخدمين."
+      }
+    },
+    "readiness": {
+      "title": "جاهزية الإنتاج",
+      "subtitle": "الفحوصات التقنية المطلوبة قبل إطلاق النظام.",
+      "ready": "النظام جاهز للإنتاج",
+      "notReady": "توجد أمور يجب معالجتها قبل الإطلاق",
+      "hint": "عالج الفحوصات غير الناجحة ثم حدّث الحالة.",
+      "error": "تعذر تحميل حالة النظام.",
+      "checks": {
+        "environment": "بيئة الإنتاج",
+        "debug_disabled": "تعطيل وضع التصحيح",
+        "application_key": "مفتاح التطبيق",
+        "https_app_url": "رابط API آمن",
+        "https_frontend_url": "رابط الواجهة آمن",
+        "secure_session_cookie": "ملف جلسة آمن",
+        "encrypted_session": "تشفير الجلسة",
+        "mysql_database": "قاعدة بيانات MySQL",
+        "durable_queue": "طابور مهام دائم",
+        "durable_cache": "تخزين مؤقت دائم",
+        "document_scanner": "فاحص المستندات",
+        "privacy_policy": "سياسة خصوصية معتمدة",
+        "retention_periods": "فترات الاحتفاظ بالبيانات"
+      }
+    },
+    "privacy": {
+      "title": "طلبات الخصوصية",
+      "subtitle": "متابعة طلبات أصحاب البيانات ومواعيدها.",
+      "createTitle": "تسجيل طلب",
+      "driver": "السائق",
+      "type": "نوع الطلب",
+      "status": "الحالة",
+      "receivedAt": "تاريخ الاستلام",
+      "dueAt": "تاريخ الاستحقاق",
+      "source": "مصدر الطلب",
+      "notes": "ملاحظات داخلية",
+      "create": "تسجيل الطلب",
+      "actions": "الإجراءات",
+      "open": "إدارة",
+      "all": "الكل",
+      "deadline": "الموعد",
+      "overdue": "المتأخرة فقط",
+      "empty": "لا توجد طلبات خصوصية.",
+      "workflow": "معالجة الطلب",
+      "nextStatus": "الحالة التالية",
+      "chooseStatus": "اختر الحالة",
+      "reason": "سبب القرار",
+      "apply": "تطبيق",
+      "holdReason": "سبب التعليق القانوني",
+      "addHold": "إضافة تعليق قانوني",
+      "removeHold": "إلغاء التعليق القانوني",
+      "reference": "مرجع الإكمال",
+      "completionNotes": "ملاحظات الإكمال",
+      "complete": "تحديد كمكتمل",
+      "deletionPolicy": "لا يمكن إكمال طلب الحذف قبل اعتماد سياسة الاحتفاظ والحذف.",
+      "types": {
+        "access": "الوصول",
+        "correction": "التصحيح",
+        "deletion": "الحذف",
+        "restriction": "التقييد"
+      },
+      "statuses": {
+        "open": "مفتوح",
+        "under_review": "قيد المراجعة",
+        "approved": "مقبول",
+        "rejected": "مرفوض",
+        "completed": "مكتمل",
+        "cancelled": "ملغي"
+      },
+      "sources": {
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "letter": "رسالة",
+        "in_person": "شخصيًا",
+        "other": "أخرى"
+      },
+      "records": {
+        "documents": "المستندات",
+        "document_versions": "نسخ المستندات",
+        "settlements": "الحسابات",
+        "payments": "الدفعات"
+      },
+      "searchDriver": "ابحث عن السائق بالاسم أو الهاتف أو البريد",
+      "searchAction": "بحث عن سائق",
+      "created": "تم تسجيل الطلب.",
+      "updated": "تم تحديث الطلب.",
+      "errors": {
+        "create": "تعذر تسجيل الطلب.",
+        "update": "تعذر تحديث الطلب.",
+        "list": "تعذر تحميل الطلبات.",
+        "drivers": "تعذر تحميل السائقين.",
+        "details": "تعذر تحميل تفاصيل الطلب."
+      }
+    }
+  }
+}

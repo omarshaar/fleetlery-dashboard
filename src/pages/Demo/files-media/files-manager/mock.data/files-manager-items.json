@@ -1,0 +1,330 @@
+[
+  {
+    "id": "f_images",
+    "type": "folder",
+    "path": "/Images",
+    "nameKey": "filesMedia.filesManager.folders.images"
+  },
+  {
+    "id": "f_documents",
+    "type": "folder",
+    "path": "/Documents",
+    "nameKey": "filesMedia.filesManager.folders.documents"
+  },
+  {
+    "id": "f_videos",
+    "type": "folder",
+    "path": "/Videos",
+    "nameKey": "filesMedia.filesManager.folders.videos"
+  },
+  {
+    "id": "f_archives",
+    "type": "folder",
+    "path": "/Archives",
+    "nameKey": "filesMedia.filesManager.folders.archives"
+  },
+
+  {
+    "id": "img_1",
+    "name": "brand-cover.jpg",
+    "type": "image",
+    "path": "/Images/brand-cover.jpg",
+    "url": "https://picsum.photos/1200/720",
+    "extension": "jpg",
+    "sizeBytes": 820000
+  },
+  {
+    "id": "img_2",
+    "name": "product-shot.png",
+    "type": "image",
+    "path": "/Images/product-shot.png",
+    "url": "https://picsum.photos/1200/721",
+    "extension": "png",
+    "sizeBytes": 1420000
+  },
+
+  {
+    "id": "doc_1",
+    "name": "company-profile.pdf",
+    "type": "pdf",
+    "path": "/Documents/company-profile.pdf",
+    "url": "/example/manual.pdf",
+    "extension": "pdf",
+    "sizeBytes": 5024000
+  },
+  {
+    "id": "doc_2",
+    "name": "notes.txt",
+    "type": "text",
+    "path": "/Documents/notes.txt",
+    "url": "/files/test.txt",
+    "extension": "txt",
+    "sizeBytes": 5400
+  },
+
+  {
+    "id": "vid_1",
+    "name": "promo.mp4",
+    "type": "video",
+    "path": "/Videos/promo.mp4",
+    "url": "https://vielflatvereint.eyadsattout.de/lv_0_20250906163745.mp4",
+    "extension": "mp4",
+    "sizeBytes": 10485760
+  },
+
+  {
+    "id": "zip_1",
+    "name": "assets.zip",
+    "type": "archive",
+    "path": "/Archives/assets.zip",
+    "extension": "zip",
+    "sizeBytes": 88000
+  },
+
+  {
+    "id": "root_readme",
+    "name": "README.txt",
+    "type": "text",
+    "path": "/README.txt",
+    "url": "/files/test.txt",
+    "extension": "txt",
+    "sizeBytes": 2100
+  },
+  {
+    "id": "root_policy",
+    "name": "privacy-policy.pdf",
+    "type": "pdf",
+    "path": "/privacy-policy.pdf",
+    "url": "/example/manual.pdf",
+    "extension": "pdf",
+    "sizeBytes": 7340032
+  },
+  {
+    "id": "root_logo",
+    "name": "logo.svg",
+    "type": "image",
+    "path": "/logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg",
+    "extension": "svg",
+    "sizeBytes": 156000
+  },
+  {
+    "id": "root_audio",
+    "name": "voice-note.mp3",
+    "type": "audio",
+    "path": "/voice-note.mp3",
+    "url": "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3",
+    "extension": "mp3",
+    "sizeBytes": 4532000
+  },
+  {
+    "id": "root_video",
+    "name": "intro.mp4",
+    "type": "video",
+    "path": "/intro.mp4",
+    "url": "https://vielflatvereint.eyadsattout.de/lv_0_20250906163745.mp4",
+    "extension": "mp4",
+    "sizeBytes": 12485760
+  },
+  {
+    "id": "root_zip",
+    "name": "brand-kit.zip",
+    "type": "archive",
+    "path": "/brand-kit.zip",
+    "extension": "zip",
+    "sizeBytes": 24500000
+  },
+  {
+    "id": "root_code",
+    "name": "upload-script.ts",
+    "type": "code",
+    "path": "/upload-script.ts",
+    "extension": "ts",
+    "sizeBytes": 18300
+  },
+
+  {
+    "id": "f_images_products",
+    "name": "Products",
+    "type": "folder",
+    "path": "/Images/Products"
+  },
+  {
+    "id": "f_images_banners",
+    "name": "Banners",
+    "type": "folder",
+    "path": "/Images/Banners"
+  },
+  {
+    "id": "img_products_1",
+    "name": "shoe-001.jpg",
+    "type": "image",
+    "path": "/Images/Products/shoe-001.jpg",
+    "url": "https://picsum.photos/1200/722",
+    "extension": "jpg",
+    "sizeBytes": 960000
+  },
+  {
+    "id": "img_products_2",
+    "name": "shoe-002.jpg",
+    "type": "image",
+    "path": "/Images/Products/shoe-002.jpg",
+    "url": "https://picsum.photos/1200/723",
+    "extension": "jpg",
+    "sizeBytes": 1040000
+  },
+  {
+    "id": "img_products_3",
+    "name": "shoe-003.webp",
+    "type": "image",
+    "path": "/Images/Products/shoe-003.webp",
+    "url": "https://picsum.photos/1200/724",
+    "extension": "webp",
+    "sizeBytes": 680000
+  },
+  {
+    "id": "img_banner_1",
+    "name": "sale-banner.png",
+    "type": "image",
+    "path": "/Images/Banners/sale-banner.png",
+    "url": "https://picsum.photos/1600/450",
+    "extension": "png",
+    "sizeBytes": 2150000
+  },
+  {
+    "id": "img_banner_2",
+    "name": "new-arrivals.jpg",
+    "type": "image",
+    "path": "/Images/Banners/new-arrivals.jpg",
+    "url": "https://picsum.photos/1600/451",
+    "extension": "jpg",
+    "sizeBytes": 1840000
+  },
+
+  {
+    "id": "f_documents_invoices",
+    "name": "Invoices",
+    "type": "folder",
+    "path": "/Documents/Invoices"
+  },
+  {
+    "id": "f_documents_contracts",
+    "name": "Contracts",
+    "type": "folder",
+    "path": "/Documents/Contracts"
+  },
+  {
+    "id": "doc_invoice_1",
+    "name": "invoice-2026-0001.pdf",
+    "type": "pdf",
+    "path": "/Documents/Invoices/invoice-2026-0001.pdf",
+    "url": "/example/manual.pdf",
+    "extension": "pdf",
+    "sizeBytes": 924000
+  },
+  {
+    "id": "doc_invoice_2",
+    "name": "invoice-2026-0002.pdf",
+    "type": "pdf",
+    "path": "/Documents/Invoices/invoice-2026-0002.pdf",
+    "url": "/example/manual.pdf",
+    "extension": "pdf",
+    "sizeBytes": 988000
+  },
+  {
+    "id": "doc_contract_1",
+    "name": "supplier-agreement.pdf",
+    "type": "pdf",
+    "path": "/Documents/Contracts/supplier-agreement.pdf",
+    "url": "/example/manual.pdf",
+    "extension": "pdf",
+    "sizeBytes": 3120000
+  },
+  {
+    "id": "doc_sheet_1",
+    "name": "inventory.xlsx",
+    "type": "document",
+    "path": "/Documents/inventory.xlsx",
+    "extension": "xlsx",
+    "sizeBytes": 642000
+  },
+  {
+    "id": "doc_presentation_1",
+    "name": "roadmap.pptx",
+    "type": "document",
+    "path": "/Documents/roadmap.pptx",
+    "extension": "pptx",
+    "sizeBytes": 1842000
+  },
+  {
+    "id": "doc_text_3",
+    "name": "meeting-notes-2026-02-05.txt",
+    "type": "text",
+    "path": "/Documents/meeting-notes-2026-02-05.txt",
+    "url": "/files/test.txt",
+    "extension": "txt",
+    "sizeBytes": 8900
+  },
+
+  {
+    "id": "f_videos_ads",
+    "name": "Ads",
+    "type": "folder",
+    "path": "/Videos/Ads"
+  },
+  {
+    "id": "f_videos_tutorials",
+    "name": "Tutorials",
+    "type": "folder",
+    "path": "/Videos/Tutorials"
+  },
+  {
+    "id": "vid_ads_1",
+    "name": "ad-vertical.mp4",
+    "type": "video",
+    "path": "/Videos/Ads/ad-vertical.mp4",
+    "url": "https://vielflatvereint.eyadsattout.de/lv_0_20250906163745.mp4",
+    "extension": "mp4",
+    "sizeBytes": 16485760
+  },
+  {
+    "id": "vid_tutorial_1",
+    "name": "how-to-upload.mp4",
+    "type": "video",
+    "path": "/Videos/Tutorials/how-to-upload.mp4",
+    "url": "https://vielflatvereint.eyadsattout.de/lv_0_20250906163745.mp4",
+    "extension": "mp4",
+    "sizeBytes": 20485760
+  },
+
+  {
+    "id": "f_archives_exports",
+    "name": "Exports",
+    "type": "folder",
+    "path": "/Archives/Exports"
+  },
+  {
+    "id": "zip_export_1",
+    "name": "orders-export-2026-01.zip",
+    "type": "archive",
+    "path": "/Archives/Exports/orders-export-2026-01.zip",
+    "extension": "zip",
+    "sizeBytes": 18500000
+  },
+  {
+    "id": "zip_export_2",
+    "name": "products-export-2026-01.zip",
+    "type": "archive",
+    "path": "/Archives/Exports/products-export-2026-01.zip",
+    "extension": "zip",
+    "sizeBytes": 9400000
+  },
+  {
+    "id": "zip_export_3",
+    "name": "customers-export-2026-01.zip",
+    "type": "archive",
+    "path": "/Archives/Exports/customers-export-2026-01.zip",
+    "extension": "zip",
+    "sizeBytes": 12100000
+  }
+]
