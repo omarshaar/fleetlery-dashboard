@@ -1,4 +1,7 @@
-import { Activity, BarChart3, FilePenLine, FileText, History, LayoutDashboard, Mail, MapPin, ReceiptText, Shield, Truck, UserRound, Users, Wallet, type LucideIcon } from "lucide-react"
+import { 
+  // Activity,
+  // Shield,
+  BarChart3, FilePenLine, FileText, History, LayoutDashboard, Mail, MapPin, ReceiptText, Truck, UserRound, Users, Wallet, type LucideIcon } from "lucide-react"
 
 export type NavigationItem = {
   title: string
@@ -20,8 +23,8 @@ export const navMainData: NavigationItem[] = [
     { title: "Einladungen", url: "/admin/driver-invitations", icon: Mail },
     { title: "Änderungsanträge", url: "/admin/profile-change-requests", icon: FilePenLine },
     { title: "Benutzer", url: "/admin/users", icon: Users },
-    { title: "Datenschutz", url: "/admin/privacy-requests", icon: Shield },
-    { title: "Systemstatus", url: "/admin/readiness", icon: Activity },
+    // { title: "Datenschutz", url: "/admin/privacy-requests", icon: Shield },
+    // { title: "Systemstatus", url: "/admin/readiness", icon: Activity },
   ] },
 ]
 

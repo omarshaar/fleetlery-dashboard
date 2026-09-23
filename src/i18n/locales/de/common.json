@@ -491,6 +491,8 @@
       "internationalNetwork": "Internationales Netz",
       "phonePlaceholder": "176 12345678",
       "invalidPhone": "Bitte geben Sie eine gültige Telefonnummer ein.",
+      "chooseCity": "Stadt auswählen",
+      "noCities": "Derzeit sind keine aktiven Städte verfügbar. Bitte wenden Sie sich an die Verwaltung.",
       "createAccount": "Konto erstellen",
       "doneTitle": "Konto erstellt",
       "doneText": "Sie können sich jetzt anmelden.",

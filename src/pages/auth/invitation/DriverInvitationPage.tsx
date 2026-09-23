@@ -1,7 +1,7 @@
 import { useMemo, useState, type FormEvent } from "react"
 import { ChevronDown } from "lucide-react"
 import { Link, useSearchParams } from "react-router-dom"
-import { Button, Command, Input, Label, Popover, Select } from "@/components"
+import { Alert, Button, Command, Input, Label, Popover, Select } from "@/components"
 import { AuthCard } from "@/components/auth/AuthCard"
 import { apiError } from "@/components/auth/apiError"
 import { useLanguage } from "@/i18n"
@@ -45,6 +45,8 @@ export default function DriverInvitationPage() {
   const [selectedCodeKey, setSelectedCodeKey] = useState("DE:49")
   const [form, setForm] = useState({ full_name: "", email: "", phone: "", password: "", password_confirmation: "", city_id: "", transport_type: "car", birth_date: "", social_security_number: "", identity_expires_at: "" })
   const selectedCode = callingCodes.find((item) => `${item.region}:${item.code}` === selectedCodeKey) ?? callingCodes.find((item) => item.region === "DE")!
+  const cities = invitation.data?.cities ?? []
+  const citiesUnavailable = invitation.isSuccess && cities.length === 0
   const codeOptions = useMemo(() => {
     const names = new Intl.DisplayNames([language], { type: "region" })
     const collator = new Intl.Collator(language)
@@ -88,14 +90,15 @@ export default function DriverInvitationPage() {
         </div>
         <Input label={t("drivers.fields.phone")} type="tel" inputMode="tel" autoComplete="tel-national" dir="ltr" required placeholder={t("driverPortal.invitation.phonePlaceholder")} value={form.phone} error={fields.phone?.[0]} onChange={(event) => setForm({ ...form, phone: normalizeNationalInput(event.target.value, selectedCode) })} />
       </div>
-      <Select label={t("drivers.fields.city")} required options={(invitation.data?.cities ?? []).map((city) => ({ label: city.name, value: city.id }))} value={form.city_id || undefined} error={fields.city_id?.[0]} onChange={(value) => setForm({ ...form, city_id: value })} />
+      {citiesUnavailable && <Alert variant="destructive" description={t("driverPortal.invitation.noCities")} />}
+      <Select label={t("drivers.fields.city")} required disabled={invitation.isLoading || citiesUnavailable} placeholder={invitation.isLoading ? t("common.loading") : t("driverPortal.invitation.chooseCity")} options={cities.map((city) => ({ label: city.name, value: city.id }))} value={form.city_id || undefined} error={fields.city_id?.[0]} onChange={(value) => setForm({ ...form, city_id: value })} />
       <Select label={t("drivers.fields.transport")} required options={[{ label: t("drivers.transport.car"), value: "car" }, { label: t("drivers.transport.bicycle"), value: "bicycle" }]} value={form.transport_type} onChange={(value) => setForm({ ...form, transport_type: value })} />
       <Input label={t("drivers.fields.birthDate")} type="date" value={form.birth_date} error={fields.birth_date?.[0]} onChange={(event) => setForm({ ...form, birth_date: event.target.value })} />
       <Input label={t("drivers.fields.socialSecurity")} value={form.social_security_number} error={fields.social_security_number?.[0]} onChange={(event) => setForm({ ...form, social_security_number: event.target.value })} />
       <Input label={t("drivers.fields.identityExpiry")} type="date" value={form.identity_expires_at} error={fields.identity_expires_at?.[0]} onChange={(event) => setForm({ ...form, identity_expires_at: event.target.value })} />
       <Input label={t("auth.fields.password")} type="password" required value={form.password} error={fields.password?.[0]} onChange={(event) => setForm({ ...form, password: event.target.value })} />
       <Input label={t("driverPortal.invitation.confirmPassword")} type="password" required value={form.password_confirmation} onChange={(event) => setForm({ ...form, password_confirmation: event.target.value })} />
-      <Button type="submit" className="w-full" disabled={state.isLoading || invitation.isLoading}>{state.isLoading ? t("common.loading") : t("driverPortal.invitation.createAccount")}</Button>
+      <Button type="submit" className="w-full" disabled={state.isLoading || invitation.isLoading || citiesUnavailable}>{state.isLoading ? t("common.loading") : t("driverPortal.invitation.createAccount")}</Button>
     </form>
   </AuthCard>
 }

@@ -491,6 +491,8 @@
       "internationalNetwork": "شبكة دولية",
       "phonePlaceholder": "176 12345678",
       "invalidPhone": "أدخل رقم هاتف صالحًا.",
+      "chooseCity": "اختر المدينة",
+      "noCities": "لا توجد مدن مفعّلة حاليًا. يرجى التواصل مع الإدارة.",
       "createAccount": "إنشاء حساب",
       "doneTitle": "تم إنشاء الحساب",
       "doneText": "يمكنك تسجيل الدخول الآن.",

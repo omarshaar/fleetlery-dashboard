@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
 interface AppState {
-  currentFormData: Record<string, any>;
+  currentFormData: Record<string, unknown>;
 }
 
 const initialState: AppState = {
@@ -13,7 +13,7 @@ const appSlice = createSlice({
   name: "app",
   initialState,
   reducers: {
-    setFormData(state, action: PayloadAction<{ id: string; data: any }>) {
+    setFormData(state, action: PayloadAction<{ id: string; data: unknown }>) {
       state.currentFormData[action.payload.id] = action.payload.data;
     },
     resetFormData(state, action: PayloadAction<string>) {

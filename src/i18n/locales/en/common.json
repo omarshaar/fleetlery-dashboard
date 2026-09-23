@@ -491,6 +491,8 @@
       "internationalNetwork": "International network",
       "phonePlaceholder": "176 12345678",
       "invalidPhone": "Enter a valid phone number.",
+      "chooseCity": "Choose a city",
+      "noCities": "No active cities are currently available. Please contact administration.",
       "createAccount": "Create account",
       "doneTitle": "Account created",
       "doneText": "You can now sign in.",
